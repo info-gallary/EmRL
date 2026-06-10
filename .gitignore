@@ -42,7 +42,7 @@ Thumbs.db
 /figures/
 # Superseded experiment scripts (provenance only).
 archive/
-results/
+/results/
 # Earlier scratch docs — current manuscript lives in deliverables/MANUSCRIPT.md.
 paper_draft.md
 context.md
