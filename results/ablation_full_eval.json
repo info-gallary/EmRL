@@ -1,0 +1,425 @@
+{
+  "rrna": {
+    "EmRL": {
+      "bdr": 0.56,
+      "mean_delay": 3793.6644,
+      "mean_energy": 4.0476,
+      "mean_hops": 2.3571,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.5638,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9333,
+      "mean_delay": 3373.1737,
+      "mean_energy": 4.3286,
+      "mean_hops": 2.75,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.9396,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1467,
+      "mean_delay": 1081.2852,
+      "mean_energy": 12.6818,
+      "mean_hops": 9.0909,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1477,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.24,
+      "mean_delay": 2365.3886,
+      "mean_energy": 1.6111,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.2416,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3283.1296,
+      "mean_energy": 4.3557,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "rrnb": {
+    "EmRL": {
+      "bdr": 0.1933,
+      "mean_delay": 3554.5364,
+      "mean_energy": 3.5172,
+      "mean_hops": 1.7586,
+      "oracle_bdr": 0.34,
+      "relative_performance": 0.5686,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.3067,
+      "mean_delay": 3601.8694,
+      "mean_energy": 3.1304,
+      "mean_hops": 1.5652,
+      "oracle_bdr": 0.34,
+      "relative_performance": 0.902,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1267,
+      "mean_delay": 3056.4667,
+      "mean_energy": 15.2632,
+      "mean_hops": 7.6316,
+      "oracle_bdr": 0.34,
+      "relative_performance": 0.3725,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.14,
+      "mean_delay": 2833.0368,
+      "mean_energy": 2.0,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.34,
+      "relative_performance": 0.4118,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.34,
+      "mean_delay": 3632.2059,
+      "mean_energy": 3.098,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.34,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "congestion": {
+    "EmRL": {
+      "bdr": 0.5533,
+      "mean_delay": 3832.2996,
+      "mean_energy": 4.3494,
+      "mean_hops": 2.506,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.557,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9533,
+      "mean_delay": 3282.9515,
+      "mean_energy": 4.6643,
+      "mean_hops": 3.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.9597,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.14,
+      "mean_delay": 1537.4668,
+      "mean_energy": 15.7619,
+      "mean_hops": 9.5714,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1409,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.1933,
+      "mean_delay": 1629.9184,
+      "mean_energy": 1.4828,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1946,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3235.9346,
+      "mean_energy": 4.5705,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "jamming": {
+    "EmRL": {
+      "bdr": 0.3667,
+      "mean_delay": 3771.8511,
+      "mean_energy": 3.2182,
+      "mean_hops": 1.9273,
+      "oracle_bdr": 0.8,
+      "relative_performance": 0.4583,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.74,
+      "mean_delay": 3482.855,
+      "mean_energy": 3.8288,
+      "mean_hops": 2.4595,
+      "oracle_bdr": 0.8,
+      "relative_performance": 0.925,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1733,
+      "mean_delay": 1513.5915,
+      "mean_energy": 10.6154,
+      "mean_hops": 6.8462,
+      "oracle_bdr": 0.8,
+      "relative_performance": 0.2167,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.22,
+      "mean_delay": 2199.0555,
+      "mean_energy": 1.4545,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.8,
+      "relative_performance": 0.275,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.8,
+      "mean_delay": 3592.1668,
+      "mean_energy": 3.925,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.8,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "adversarial": {
+    "EmRL": {
+      "bdr": 0.5933,
+      "mean_delay": 3833.425,
+      "mean_energy": 3.7528,
+      "mean_hops": 2.1685,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.5973,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9733,
+      "mean_delay": 3408.1688,
+      "mean_energy": 4.2877,
+      "mean_hops": 2.726,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.9799,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.18,
+      "mean_delay": 996.0673,
+      "mean_energy": 9.2222,
+      "mean_hops": 6.7778,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1812,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.2667,
+      "mean_delay": 1852.3763,
+      "mean_energy": 1.5,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.2685,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3368.3848,
+      "mean_energy": 4.2886,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "anomaly": {
+    "EmRL": {
+      "bdr": 0.38,
+      "mean_delay": 3758.8525,
+      "mean_energy": 3.5263,
+      "mean_hops": 2.0877,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.3826,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.8,
+      "mean_delay": 3559.4728,
+      "mean_energy": 4.4583,
+      "mean_hops": 2.9,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.8054,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.12,
+      "mean_delay": 1309.2385,
+      "mean_energy": 8.7778,
+      "mean_hops": 6.1111,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1208,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.2067,
+      "mean_delay": 2174.2989,
+      "mean_energy": 1.5161,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.2081,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3425.057,
+      "mean_energy": 4.557,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "synthetic_seed0": {
+    "EmRL": {
+      "bdr": 0.6067,
+      "mean_delay": 3838.589,
+      "mean_energy": 3.8681,
+      "mean_hops": 2.2857,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.6107,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9667,
+      "mean_delay": 3331.9562,
+      "mean_energy": 4.3448,
+      "mean_hops": 2.7586,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.9732,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.12,
+      "mean_delay": 1201.3768,
+      "mean_energy": 14.2778,
+      "mean_hops": 9.7778,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1208,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.2467,
+      "mean_delay": 2290.8333,
+      "mean_energy": 1.6216,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.2483,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3283.1296,
+      "mean_energy": 4.3557,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "synthetic_seed1": {
+    "EmRL": {
+      "bdr": 0.58,
+      "mean_delay": 3741.3827,
+      "mean_energy": 4.0,
+      "mean_hops": 2.2874,
+      "oracle_bdr": 0.98,
+      "relative_performance": 0.5918,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9133,
+      "mean_delay": 3306.7892,
+      "mean_energy": 4.5036,
+      "mean_hops": 2.9489,
+      "oracle_bdr": 0.98,
+      "relative_performance": 0.932,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1333,
+      "mean_delay": 760.4315,
+      "mean_energy": 11.5,
+      "mean_hops": 7.05,
+      "oracle_bdr": 0.98,
+      "relative_performance": 0.1361,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.2333,
+      "mean_delay": 1990.7186,
+      "mean_energy": 1.6,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.98,
+      "relative_performance": 0.2381,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.98,
+      "mean_delay": 3145.3441,
+      "mean_energy": 4.5578,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.98,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  },
+  "synthetic_seed2": {
+    "EmRL": {
+      "bdr": 0.6067,
+      "mean_delay": 3914.5484,
+      "mean_energy": 4.2967,
+      "mean_hops": 2.4725,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.6107,
+      "n_episodes": 150
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9067,
+      "mean_delay": 3363.9609,
+      "mean_energy": 4.5441,
+      "mean_hops": 2.9044,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.9128,
+      "n_episodes": 150
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1067,
+      "mean_delay": 973.4837,
+      "mean_energy": 14.0625,
+      "mean_hops": 8.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1074,
+      "n_episodes": 150
+    },
+    "SprayAndWait": {
+      "bdr": 0.1867,
+      "mean_delay": 1486.2191,
+      "mean_energy": 1.4643,
+      "mean_hops": 1.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 0.1879,
+      "n_episodes": 150
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3235.9346,
+      "mean_energy": 4.5705,
+      "mean_hops": 0.0,
+      "oracle_bdr": 0.9933,
+      "relative_performance": 1.0,
+      "n_episodes": 150
+    }
+  }
+}

@@ -1,0 +1,17 @@
+% Drop-in LaTeX tables for the manuscript
+\begin{table}[t]
+\centering
+\caption{Bundle delivery ratio under adversarial bottleneck-hub jamming. EmRL outperforms operationally-deployed (offline) Classical CGR by 18--55\%.}
+\label{tab:jamming}
+\begin{tabular}{lccccc}
+\toprule
+Scenario & EmRL & CGR-Online & CGR-Offline & S\&W & Winner \\
+\midrule
+Baseline (no attack) & 0.880 & 0.953 & 0.907 & 0.220 & CGR-Online \\
+2 hubs jammed & \textbf{0.310} & 0.230 & 0.167 & 0.110 & EmRL \\
+3 hubs jammed & \textbf{0.287} & 0.213 & 0.143 & 0.100 & EmRL \\
+4 hubs jammed & \textbf{0.227} & 0.183 & 0.110 & 0.073 & EmRL \\
+5 hubs jammed & \textbf{0.173} & 0.157 & 0.097 & 0.087 & EmRL \\
+\bottomrule
+\end{tabular}
+\end{table}

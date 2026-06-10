@@ -1,0 +1,31 @@
+============================================================
+EmRL — ESA Anomaly Data Validation
+============================================================
+
+Loading ESA anomaly data...
+  mission1: 3589 records, mean AACR=0.819
+  mission2: 11167 records, mean AACR=0.851
+  mission3: 2586 records, mean AACR=0.886
+
+Running per-mission validation...
+  mission1...
+    ClassicalCGR: BDR=0.770
+    AdaptiveCGR: BDR=0.100
+    Oracle: BDR=1.000
+  mission2...
+    ClassicalCGR: BDR=0.860
+    AdaptiveCGR: BDR=0.100
+    Oracle: BDR=1.000
+  mission3...
+    ClassicalCGR: BDR=0.920
+    AdaptiveCGR: BDR=0.060
+    Oracle: BDR=1.000
+
+Saved: results\esa_validation.json
+
+Generating ESA figures...
+  Saved: figures\fig10_aacr_reliability.pdf
+  Saved: figures\fig10_aacr_reliability.png
+  Saved: figures\fig9_esa_validation.pdf
+  Saved: figures\fig9_esa_validation.png
+Done.

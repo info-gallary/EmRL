@@ -1,0 +1,9 @@
+{
+  "ablation": "NoBCWarmup",
+  "total_timesteps": 1000000,
+  "total_updates": 489,
+  "best_bdr_training_eval": 0.4,
+  "best_checkpoint": "checkpoints\\no_bc\\best_model_bdr0.4000.pt",
+  "seed": 42,
+  "elapsed_hours": 2.33
+}

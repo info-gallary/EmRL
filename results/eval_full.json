@@ -1,0 +1,1572 @@
+{
+  "rrna": {
+    "EmRL-Full": {
+      "bdr": 0.6067,
+      "mean_delay": 4022.23,
+      "mean_energy": 4.1099,
+      "mean_hops": 2.37,
+      "ci_95_bdr": [
+        0.5511,
+        0.6623
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 112,
+        "delivered": 182,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.5567,
+      "mean_delay": 3738.09,
+      "mean_energy": 3.8383,
+      "mean_hops": 2.22,
+      "ci_95_bdr": [
+        0.5001,
+        0.6132
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 126,
+        "delivered": 167,
+        "ttl_expired": 7
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.2067,
+      "mean_delay": 4392.81,
+      "mean_energy": 2.6613,
+      "mean_hops": 1.66,
+      "ci_95_bdr": [
+        0.1606,
+        0.2527
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 215,
+        "delivered": 62,
+        "ttl_expired": 23
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.2667,
+      "mean_delay": 4477.61,
+      "mean_energy": 2.9625,
+      "mean_hops": 1.81,
+      "ci_95_bdr": [
+        0.2163,
+        0.317
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 198,
+        "delivered": 80,
+        "ttl_expired": 22
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.0967,
+      "mean_delay": 1854.83,
+      "mean_energy": 2.3103,
+      "mean_hops": 1.69,
+      "ci_95_bdr": [
+        0.063,
+        0.1303
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 268,
+        "delivered": 29,
+        "ttl_expired": 3
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.96,
+      "mean_delay": 3408.74,
+      "mean_energy": 4.4271,
+      "mean_hops": 2.84,
+      "ci_95_bdr": [
+        0.9377,
+        0.9823
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 288,
+        "no_route": 12
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.0867,
+      "mean_delay": 924.72,
+      "mean_energy": 10.2308,
+      "mean_hops": 6.88,
+      "ci_95_bdr": [
+        0.0546,
+        0.1187
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 274,
+        "delivered": 26
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2233,
+      "mean_delay": 2249.4,
+      "mean_energy": 1.6119,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1759,
+        0.2707
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 233,
+        "delivered": 67
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3435.9,
+      "mean_energy": 4.4732,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9841,
+        1.0026
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 298,
+        "no_route": 2
+      }
+    }
+  },
+  "rrnb": {
+    "EmRL-Full": {
+      "bdr": 0.17,
+      "mean_delay": 4236.82,
+      "mean_energy": 3.9216,
+      "mean_hops": 1.96,
+      "ci_95_bdr": [
+        0.1272,
+        0.2128
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 246,
+        "delivered": 51,
+        "ttl_expired": 3
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.2333,
+      "mean_delay": 4044.24,
+      "mean_energy": 3.6857,
+      "mean_hops": 1.84,
+      "ci_95_bdr": [
+        0.1852,
+        0.2815
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 228,
+        "delivered": 70,
+        "ttl_expired": 2
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.01,
+      "mean_delay": 5692.26,
+      "mean_energy": 2.0,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        -0.0013,
+        0.0213
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 293,
+        "delivered": 3,
+        "ttl_expired": 4
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.1333,
+      "mean_delay": 4396.16,
+      "mean_energy": 2.95,
+      "mean_hops": 1.48,
+      "ci_95_bdr": [
+        0.0946,
+        0.172
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 247,
+        "delivered": 40,
+        "ttl_expired": 13
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.0567,
+      "mean_delay": 1832.8,
+      "mean_energy": 2.2353,
+      "mean_hops": 1.12,
+      "ci_95_bdr": [
+        0.0304,
+        0.083
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 282,
+        "delivered": 17,
+        "ttl_expired": 1
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.3567,
+      "mean_delay": 3808.17,
+      "mean_energy": 3.2897,
+      "mean_hops": 1.64,
+      "ci_95_bdr": [
+        0.3022,
+        0.4112
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 192,
+        "delivered": 107,
+        "ttl_expired": 1
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1167,
+      "mean_delay": 2724.32,
+      "mean_energy": 16.2286,
+      "mean_hops": 8.11,
+      "ci_95_bdr": [
+        0.0801,
+        0.1532
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 256,
+        "delivered": 35,
+        "ttl_expired": 9
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1367,
+      "mean_delay": 2740.3,
+      "mean_energy": 2.0,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.0976,
+        0.1758
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 259,
+        "delivered": 41
+      }
+    },
+    "Oracle": {
+      "bdr": 0.3867,
+      "mean_delay": 3838.11,
+      "mean_energy": 3.2931,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.3312,
+        0.4421
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 184,
+        "delivered": 116
+      }
+    }
+  },
+  "congestion": {
+    "EmRL-Full": {
+      "bdr": 0.6167,
+      "mean_delay": 3841.85,
+      "mean_energy": 3.9946,
+      "mean_hops": 2.32,
+      "ci_95_bdr": [
+        0.5613,
+        0.672
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 185,
+        "no_route": 109,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.5967,
+      "mean_delay": 3776.01,
+      "mean_energy": 4.1955,
+      "mean_hops": 2.42,
+      "ci_95_bdr": [
+        0.5408,
+        0.6525
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 179,
+        "no_route": 113,
+        "ttl_expired": 8
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.2333,
+      "mean_delay": 4201.02,
+      "mean_energy": 2.6429,
+      "mean_hops": 1.61,
+      "ci_95_bdr": [
+        0.1852,
+        0.2815
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 205,
+        "delivered": 70,
+        "ttl_expired": 25
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.2567,
+      "mean_delay": 4488.63,
+      "mean_energy": 2.7662,
+      "mean_hops": 1.71,
+      "ci_95_bdr": [
+        0.207,
+        0.3064
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 206,
+        "delivered": 77,
+        "ttl_expired": 17
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.12,
+      "mean_delay": 1800.37,
+      "mean_energy": 2.8056,
+      "mean_hops": 1.89,
+      "ci_95_bdr": [
+        0.083,
+        0.157
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 264,
+        "delivered": 36
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9467,
+      "mean_delay": 3201.27,
+      "mean_energy": 4.5423,
+      "mean_hops": 2.96,
+      "ci_95_bdr": [
+        0.9211,
+        0.9722
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 16,
+        "delivered": 284
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1233,
+      "mean_delay": 1382.33,
+      "mean_energy": 11.9459,
+      "mean_hops": 6.78,
+      "ci_95_bdr": [
+        0.0859,
+        0.1608
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 263,
+        "delivered": 37
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2233,
+      "mean_delay": 1751.72,
+      "mean_energy": 1.5075,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1759,
+        0.2707
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 233,
+        "delivered": 67
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9967,
+      "mean_delay": 3156.54,
+      "mean_energy": 4.505,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9901,
+        1.0032
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 299,
+        "no_route": 1
+      }
+    }
+  },
+  "jamming": {
+    "EmRL-Full": {
+      "bdr": 0.3267,
+      "mean_delay": 3792.53,
+      "mean_energy": 3.0204,
+      "mean_hops": 1.82,
+      "ci_95_bdr": [
+        0.2733,
+        0.38
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 199,
+        "delivered": 98,
+        "ttl_expired": 3
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.3133,
+      "mean_delay": 3876.78,
+      "mean_energy": 3.1277,
+      "mean_hops": 1.87,
+      "ci_95_bdr": [
+        0.2605,
+        0.3661
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 94,
+        "ttl_expired": 2,
+        "no_route": 204
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.18,
+      "mean_delay": 4172.81,
+      "mean_energy": 2.037,
+      "mean_hops": 1.33,
+      "ci_95_bdr": [
+        0.1363,
+        0.2237
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 233,
+        "delivered": 54,
+        "ttl_expired": 13
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.2,
+      "mean_delay": 4261.19,
+      "mean_energy": 2.55,
+      "mean_hops": 1.67,
+      "ci_95_bdr": [
+        0.1545,
+        0.2455
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 228,
+        "ttl_expired": 12,
+        "delivered": 60
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.1,
+      "mean_delay": 2002.94,
+      "mean_energy": 2.1,
+      "mean_hops": 1.5,
+      "ci_95_bdr": [
+        0.0659,
+        0.1341
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 269,
+        "delivered": 30,
+        "ttl_expired": 1
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.7333,
+      "mean_delay": 3751.92,
+      "mean_energy": 4.0364,
+      "mean_hops": 2.6,
+      "ci_95_bdr": [
+        0.683,
+        0.7837
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 220,
+        "no_route": 80
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1367,
+      "mean_delay": 1936.07,
+      "mean_energy": 8.1707,
+      "mean_hops": 5.44,
+      "ci_95_bdr": [
+        0.0976,
+        0.1758
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 41,
+        "no_route": 254,
+        "ttl_expired": 5
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2,
+      "mean_delay": 2554.83,
+      "mean_energy": 1.4333,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1545,
+        0.2455
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 240,
+        "delivered": 60
+      }
+    },
+    "Oracle": {
+      "bdr": 0.7933,
+      "mean_delay": 3750.47,
+      "mean_energy": 4.1513,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.7473,
+        0.8394
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 238,
+        "no_route": 62
+      }
+    }
+  },
+  "adversarial": {
+    "EmRL-Full": {
+      "bdr": 0.5933,
+      "mean_delay": 3623.83,
+      "mean_energy": 3.882,
+      "mean_hops": 2.2,
+      "ci_95_bdr": [
+        0.5374,
+        0.6492
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 116,
+        "delivered": 178,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.62,
+      "mean_delay": 3686.91,
+      "mean_energy": 3.9785,
+      "mean_hops": 2.26,
+      "ci_95_bdr": [
+        0.5648,
+        0.6752
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 106,
+        "delivered": 186,
+        "ttl_expired": 8
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.2267,
+      "mean_delay": 4031.22,
+      "mean_energy": 2.5441,
+      "mean_hops": 1.53,
+      "ci_95_bdr": [
+        0.179,
+        0.2743
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 206,
+        "ttl_expired": 26,
+        "delivered": 68
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.2533,
+      "mean_delay": 4343.07,
+      "mean_energy": 2.8421,
+      "mean_hops": 1.82,
+      "ci_95_bdr": [
+        0.2038,
+        0.3028
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 197,
+        "delivered": 76,
+        "ttl_expired": 27
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.15,
+      "mean_delay": 1666.01,
+      "mean_energy": 2.2222,
+      "mean_hops": 1.47,
+      "ci_95_bdr": [
+        0.1094,
+        0.1906
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 254,
+        "delivered": 45,
+        "ttl_expired": 1
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9667,
+      "mean_delay": 3400.59,
+      "mean_energy": 4.3241,
+      "mean_hops": 2.74,
+      "ci_95_bdr": [
+        0.9462,
+        0.9871
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 290,
+        "no_route": 10
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1167,
+      "mean_delay": 947.41,
+      "mean_energy": 6.2857,
+      "mean_hops": 4.86,
+      "ci_95_bdr": [
+        0.0801,
+        0.1532
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 265,
+        "delivered": 35
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2433,
+      "mean_delay": 1923.66,
+      "mean_energy": 1.5479,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1945,
+        0.2922
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 227,
+        "delivered": 73
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3375.19,
+      "mean_energy": 4.3456,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9841,
+        1.0026
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 298,
+        "no_route": 2
+      }
+    }
+  },
+  "anomaly": {
+    "EmRL-Full": {
+      "bdr": 0.3833,
+      "mean_delay": 3740.92,
+      "mean_energy": 3.4783,
+      "mean_hops": 2.05,
+      "ci_95_bdr": [
+        0.328,
+        0.4387
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 168,
+        "delivered": 115,
+        "ttl_expired": 17
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.4667,
+      "mean_delay": 3660.45,
+      "mean_energy": 4.0857,
+      "mean_hops": 2.39,
+      "ci_95_bdr": [
+        0.4099,
+        0.5234
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 148,
+        "delivered": 140,
+        "ttl_expired": 12
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.1867,
+      "mean_delay": 4428.84,
+      "mean_energy": 2.6071,
+      "mean_hops": 1.59,
+      "ci_95_bdr": [
+        0.1423,
+        0.231
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 201,
+        "ttl_expired": 43,
+        "delivered": 56
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.1967,
+      "mean_delay": 4174.74,
+      "mean_energy": 2.8136,
+      "mean_hops": 1.73,
+      "ci_95_bdr": [
+        0.1514,
+        0.2419
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "ttl_expired": 48,
+        "no_route": 193,
+        "delivered": 59
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.1067,
+      "mean_delay": 1788.13,
+      "mean_energy": 2.25,
+      "mean_hops": 1.53,
+      "ci_95_bdr": [
+        0.0715,
+        0.1418
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 32,
+        "no_route": 266,
+        "ttl_expired": 2
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.8167,
+      "mean_delay": 3398.45,
+      "mean_energy": 4.4816,
+      "mean_hops": 2.92,
+      "ci_95_bdr": [
+        0.7726,
+        0.8607
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 245,
+        "no_route": 55
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.15,
+      "mean_delay": 1738.2,
+      "mean_energy": 11.2222,
+      "mean_hops": 7.11,
+      "ci_95_bdr": [
+        0.1094,
+        0.1906
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 253,
+        "ttl_expired": 2,
+        "delivered": 45
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1933,
+      "mean_delay": 2329.46,
+      "mean_energy": 1.5172,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1484,
+        0.2383
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 240,
+        "delivered": 58,
+        "ttl_expired": 2
+      }
+    },
+    "Oracle": {
+      "bdr": 0.99,
+      "mean_delay": 3212.48,
+      "mean_energy": 4.5354,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9787,
+        1.0013
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 297,
+        "no_route": 3
+      }
+    }
+  },
+  "synthetic_seed0": {
+    "EmRL-Full": {
+      "bdr": 0.6033,
+      "mean_delay": 3939.06,
+      "mean_energy": 4.0884,
+      "mean_hops": 2.36,
+      "ci_95_bdr": [
+        0.5477,
+        0.659
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 118,
+        "delivered": 181,
+        "ttl_expired": 1
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.5833,
+      "mean_delay": 3901.68,
+      "mean_energy": 3.92,
+      "mean_hops": 2.26,
+      "ci_95_bdr": [
+        0.5272,
+        0.6394
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 122,
+        "delivered": 175,
+        "ttl_expired": 3
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.21,
+      "mean_delay": 4688.78,
+      "mean_energy": 2.8413,
+      "mean_hops": 1.76,
+      "ci_95_bdr": [
+        0.1636,
+        0.2564
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 206,
+        "delivered": 63,
+        "ttl_expired": 31
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.2667,
+      "mean_delay": 4477.61,
+      "mean_energy": 2.9625,
+      "mean_hops": 1.81,
+      "ci_95_bdr": [
+        0.2163,
+        0.317
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 198,
+        "delivered": 80,
+        "ttl_expired": 22
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.0967,
+      "mean_delay": 1854.83,
+      "mean_energy": 2.3103,
+      "mean_hops": 1.69,
+      "ci_95_bdr": [
+        0.063,
+        0.1303
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 268,
+        "delivered": 29,
+        "ttl_expired": 3
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9433,
+      "mean_delay": 3486.64,
+      "mean_energy": 4.4735,
+      "mean_hops": 2.88,
+      "ci_95_bdr": [
+        0.917,
+        0.9696
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 283,
+        "no_route": 17
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.0867,
+      "mean_delay": 924.72,
+      "mean_energy": 10.0769,
+      "mean_hops": 6.73,
+      "ci_95_bdr": [
+        0.0546,
+        0.1187
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 274,
+        "delivered": 26
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2233,
+      "mean_delay": 2249.4,
+      "mean_energy": 1.6119,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1759,
+        0.2707
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 233,
+        "delivered": 67
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3435.9,
+      "mean_energy": 4.4732,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9841,
+        1.0026
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 298,
+        "no_route": 2
+      }
+    }
+  },
+  "synthetic_seed1": {
+    "EmRL-Full": {
+      "bdr": 0.5867,
+      "mean_delay": 3759.1,
+      "mean_energy": 4.125,
+      "mean_hops": 2.38,
+      "ci_95_bdr": [
+        0.5306,
+        0.6427
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 176,
+        "no_route": 117,
+        "ttl_expired": 7
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.5667,
+      "mean_delay": 3698.71,
+      "mean_energy": 4.0294,
+      "mean_hops": 2.32,
+      "ci_95_bdr": [
+        0.5103,
+        0.6231
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 170,
+        "no_route": 126,
+        "ttl_expired": 4
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.2367,
+      "mean_delay": 4591.84,
+      "mean_energy": 2.8592,
+      "mean_hops": 1.69,
+      "ci_95_bdr": [
+        0.1883,
+        0.285
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 205,
+        "delivered": 71,
+        "ttl_expired": 24
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.24,
+      "mean_delay": 4349.32,
+      "mean_energy": 3.0278,
+      "mean_hops": 1.83,
+      "ci_95_bdr": [
+        0.1914,
+        0.2886
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "ttl_expired": 27,
+        "delivered": 72,
+        "no_route": 201
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.1233,
+      "mean_delay": 1811.75,
+      "mean_energy": 2.4595,
+      "mean_hops": 1.62,
+      "ci_95_bdr": [
+        0.0859,
+        0.1608
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 259,
+        "delivered": 37,
+        "ttl_expired": 4
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9433,
+      "mean_delay": 3329.8,
+      "mean_energy": 4.6749,
+      "mean_hops": 3.05,
+      "ci_95_bdr": [
+        0.917,
+        0.9696
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 283,
+        "no_route": 16,
+        "ttl_expired": 1
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.13,
+      "mean_delay": 847.97,
+      "mean_energy": 13.8718,
+      "mean_hops": 9.03,
+      "ci_95_bdr": [
+        0.0917,
+        0.1683
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 39,
+        "no_route": 260,
+        "ttl_expired": 1
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1967,
+      "mean_delay": 1800.18,
+      "mean_energy": 1.6102,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1514,
+        0.2419
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 241,
+        "delivered": 59
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9767,
+      "mean_delay": 3250.35,
+      "mean_energy": 4.6143,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9595,
+        0.9938
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 293,
+        "no_route": 7
+      }
+    }
+  },
+  "synthetic_seed2": {
+    "EmRL-Full": {
+      "bdr": 0.6333,
+      "mean_delay": 3880.41,
+      "mean_energy": 4.0053,
+      "mean_hops": 2.34,
+      "ci_95_bdr": [
+        0.5785,
+        0.6882
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 190,
+        "no_route": 104,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.59,
+      "mean_delay": 3744.89,
+      "mean_energy": 4.1412,
+      "mean_hops": 2.4,
+      "ci_95_bdr": [
+        0.534,
+        0.646
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 177,
+        "no_route": 117,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.23,
+      "mean_delay": 4390.74,
+      "mean_energy": 2.5362,
+      "mean_hops": 1.55,
+      "ci_95_bdr": [
+        0.1821,
+        0.2779
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 206,
+        "delivered": 69,
+        "ttl_expired": 25
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.2567,
+      "mean_delay": 4488.63,
+      "mean_energy": 2.7662,
+      "mean_hops": 1.71,
+      "ci_95_bdr": [
+        0.207,
+        0.3064
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 206,
+        "delivered": 77,
+        "ttl_expired": 17
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.12,
+      "mean_delay": 1800.37,
+      "mean_energy": 2.8056,
+      "mean_hops": 1.89,
+      "ci_95_bdr": [
+        0.083,
+        0.157
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 264,
+        "delivered": 36
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9467,
+      "mean_delay": 3201.27,
+      "mean_energy": 4.5423,
+      "mean_hops": 2.96,
+      "ci_95_bdr": [
+        0.9211,
+        0.9722
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 16,
+        "delivered": 284
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.13,
+      "mean_delay": 1077.37,
+      "mean_energy": 11.0769,
+      "mean_hops": 6.54,
+      "ci_95_bdr": [
+        0.0917,
+        0.1683
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 259,
+        "delivered": 39,
+        "ttl_expired": 2
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.22,
+      "mean_delay": 1715.92,
+      "mean_energy": 1.5,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1729,
+        0.2671
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 234,
+        "delivered": 66
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9967,
+      "mean_delay": 3156.54,
+      "mean_energy": 4.505,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9901,
+        1.0032
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 299,
+        "no_route": 1
+      }
+    }
+  },
+  "synthetic_seed3": {
+    "EmRL-Full": {
+      "bdr": 0.6067,
+      "mean_delay": 3731.33,
+      "mean_energy": 3.9396,
+      "mean_hops": 2.24,
+      "ci_95_bdr": [
+        0.5511,
+        0.6623
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 113,
+        "delivered": 182,
+        "ttl_expired": 5
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.6267,
+      "mean_delay": 3713.72,
+      "mean_energy": 3.9362,
+      "mean_hops": 2.24,
+      "ci_95_bdr": [
+        0.5716,
+        0.6817
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 107,
+        "delivered": 188,
+        "ttl_expired": 5
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.2233,
+      "mean_delay": 4366.64,
+      "mean_energy": 2.4627,
+      "mean_hops": 1.49,
+      "ci_95_bdr": [
+        0.1759,
+        0.2707
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 215,
+        "delivered": 67,
+        "ttl_expired": 18
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.26,
+      "mean_delay": 4324.41,
+      "mean_energy": 2.8718,
+      "mean_hops": 1.82,
+      "ci_95_bdr": [
+        0.2101,
+        0.3099
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 204,
+        "delivered": 78,
+        "ttl_expired": 18
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.1267,
+      "mean_delay": 1663.75,
+      "mean_energy": 2.1053,
+      "mean_hops": 1.42,
+      "ci_95_bdr": [
+        0.0888,
+        0.1645
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 260,
+        "delivered": 38,
+        "ttl_expired": 2
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.96,
+      "mean_delay": 3496.95,
+      "mean_energy": 4.3576,
+      "mean_hops": 2.77,
+      "ci_95_bdr": [
+        0.9377,
+        0.9823
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 288,
+        "no_route": 12
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1333,
+      "mean_delay": 976.72,
+      "mean_energy": 10.725,
+      "mean_hops": 7.92,
+      "ci_95_bdr": [
+        0.0946,
+        0.172
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 260,
+        "delivered": 40
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2433,
+      "mean_delay": 2101.28,
+      "mean_energy": 1.5479,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1945,
+        0.2922
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 227,
+        "delivered": 73
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9967,
+      "mean_delay": 3422.42,
+      "mean_energy": 4.3579,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9901,
+        1.0032
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 299,
+        "no_route": 1
+      }
+    }
+  },
+  "synthetic_seed4": {
+    "EmRL-Full": {
+      "bdr": 0.6133,
+      "mean_delay": 3939.62,
+      "mean_energy": 4.3152,
+      "mean_hops": 2.49,
+      "ci_95_bdr": [
+        0.5579,
+        0.6688
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 184,
+        "no_route": 112,
+        "ttl_expired": 4
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.6167,
+      "mean_delay": 3862.53,
+      "mean_energy": 4.2541,
+      "mean_hops": 2.45,
+      "ci_95_bdr": [
+        0.5613,
+        0.672
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 185,
+        "no_route": 109,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoBCWarm": {
+      "bdr": 0.2033,
+      "mean_delay": 4605.85,
+      "mean_energy": 3.1311,
+      "mean_hops": 1.84,
+      "ci_95_bdr": [
+        0.1575,
+        0.2491
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 215,
+        "delivered": 61,
+        "ttl_expired": 24
+      }
+    },
+    "EmRL-NoAttn": {
+      "bdr": 0.23,
+      "mean_delay": 4035.4,
+      "mean_energy": 3.0725,
+      "mean_hops": 1.84,
+      "ci_95_bdr": [
+        0.1821,
+        0.2779
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 213,
+        "delivered": 69,
+        "ttl_expired": 18
+      }
+    },
+    "DQN-flat": {
+      "bdr": 0.0967,
+      "mean_delay": 2134.16,
+      "mean_energy": 2.7241,
+      "mean_hops": 1.72,
+      "ci_95_bdr": [
+        0.063,
+        0.1303
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 270,
+        "delivered": 29,
+        "ttl_expired": 1
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9433,
+      "mean_delay": 3376.45,
+      "mean_energy": 4.576,
+      "mean_hops": 2.94,
+      "ci_95_bdr": [
+        0.917,
+        0.9696
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 283,
+        "no_route": 16,
+        "ttl_expired": 1
+      }
+    },
+    "AdaptiveCGR": {
+      "bdr": 0.1,
+      "mean_delay": 1017.28,
+      "mean_energy": 7.4,
+      "mean_hops": 4.67,
+      "ci_95_bdr": [
+        0.0659,
+        0.1341
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 269,
+        "delivered": 30,
+        "ttl_expired": 1
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1967,
+      "mean_delay": 2166.0,
+      "mean_energy": 1.6102,
+      "mean_hops": 1.0,
+      "ci_95_bdr": [
+        0.1514,
+        0.2419
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "no_route": 241,
+        "delivered": 59
+      }
+    },
+    "Oracle": {
+      "bdr": 0.9933,
+      "mean_delay": 3328.21,
+      "mean_energy": 4.5839,
+      "mean_hops": 0.0,
+      "ci_95_bdr": [
+        0.9841,
+        1.0026
+      ],
+      "n_episodes": 300,
+      "drop_reasons": {
+        "delivered": 298,
+        "no_route": 2
+      }
+    }
+  }
+}

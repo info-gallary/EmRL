@@ -1,0 +1,1256 @@
+{
+  "rrna": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": 0.05,
+      "ci_95_diff": [
+        0.0053,
+        0.0947
+      ],
+      "t_statistic": 2.202,
+      "p_value": 0.028431,
+      "cohens_d": 0.127,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.4,
+      "ci_95_diff": [
+        0.3391,
+        0.4609
+      ],
+      "t_statistic": 12.918,
+      "p_value": 0.0,
+      "cohens_d": 0.746,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.34,
+      "ci_95_diff": [
+        0.2745,
+        0.4055
+      ],
+      "t_statistic": 10.218,
+      "p_value": 0.0,
+      "cohens_d": 0.59,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.51,
+      "ci_95_diff": [
+        0.444,
+        0.576
+      ],
+      "t_statistic": 15.201,
+      "p_value": 0.0,
+      "cohens_d": 0.878,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.3533,
+      "ci_95_diff": [
+        -0.4116,
+        -0.2951
+      ],
+      "t_statistic": -11.94,
+      "p_value": 0.0,
+      "cohens_d": -0.689,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.52,
+      "ci_95_diff": [
+        0.4567,
+        0.5833
+      ],
+      "t_statistic": 16.16,
+      "p_value": 0.0,
+      "cohens_d": 0.933,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.3833,
+      "ci_95_diff": [
+        0.3214,
+        0.4453
+      ],
+      "t_statistic": 12.175,
+      "p_value": 0.0,
+      "cohens_d": 0.703,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.3867,
+      "ci_95_diff": [
+        -0.4421,
+        -0.3312
+      ],
+      "t_statistic": -13.73,
+      "p_value": 0.0,
+      "cohens_d": -0.793,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "rrnb": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": -0.0633,
+      "ci_95_diff": [
+        -0.1015,
+        -0.0251
+      ],
+      "t_statistic": -3.263,
+      "p_value": 0.001231,
+      "cohens_d": -0.188,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.16,
+      "ci_95_diff": [
+        0.1163,
+        0.2037
+      ],
+      "t_statistic": 7.198,
+      "p_value": 0.0,
+      "cohens_d": 0.416,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.0367,
+      "ci_95_diff": [
+        -0.0145,
+        0.0878
+      ],
+      "t_statistic": 1.411,
+      "p_value": 0.159364,
+      "cohens_d": 0.081,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.1133,
+      "ci_95_diff": [
+        0.0624,
+        0.1643
+      ],
+      "t_statistic": 4.377,
+      "p_value": 1.7e-05,
+      "cohens_d": 0.253,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.1867,
+      "ci_95_diff": [
+        -0.2365,
+        -0.1368
+      ],
+      "t_statistic": -7.37,
+      "p_value": 0.0,
+      "cohens_d": -0.425,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.0533,
+      "ci_95_diff": [
+        -0.0021,
+        0.1088
+      ],
+      "t_statistic": 1.894,
+      "p_value": 0.059226,
+      "cohens_d": 0.109,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.0333,
+      "ci_95_diff": [
+        -0.0207,
+        0.0874
+      ],
+      "t_statistic": 1.214,
+      "p_value": 0.225845,
+      "cohens_d": 0.07,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.2167,
+      "ci_95_diff": [
+        -0.2636,
+        -0.1698
+      ],
+      "t_statistic": -9.094,
+      "p_value": 0.0,
+      "cohens_d": -0.525,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "congestion": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": 0.02,
+      "ci_95_diff": [
+        -0.0225,
+        0.0625
+      ],
+      "t_statistic": 0.926,
+      "p_value": 0.355401,
+      "cohens_d": 0.053,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.3833,
+      "ci_95_diff": [
+        0.32,
+        0.4467
+      ],
+      "t_statistic": 11.91,
+      "p_value": 0.0,
+      "cohens_d": 0.688,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.36,
+      "ci_95_diff": [
+        0.2939,
+        0.4261
+      ],
+      "t_statistic": 10.722,
+      "p_value": 0.0,
+      "cohens_d": 0.619,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.4967,
+      "ci_95_diff": [
+        0.4306,
+        0.5627
+      ],
+      "t_statistic": 14.802,
+      "p_value": 0.0,
+      "cohens_d": 0.855,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.33,
+      "ci_95_diff": [
+        -0.3896,
+        -0.2704
+      ],
+      "t_statistic": -10.893,
+      "p_value": 0.0,
+      "cohens_d": -0.629,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.4933,
+      "ci_95_diff": [
+        0.4313,
+        0.5553
+      ],
+      "t_statistic": 15.663,
+      "p_value": 0.0,
+      "cohens_d": 0.904,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.3933,
+      "ci_95_diff": [
+        0.3311,
+        0.4555
+      ],
+      "t_statistic": 12.446,
+      "p_value": 0.0,
+      "cohens_d": 0.719,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.38,
+      "ci_95_diff": [
+        -0.4352,
+        -0.3248
+      ],
+      "t_statistic": -13.537,
+      "p_value": 0.0,
+      "cohens_d": -0.782,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "jamming": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": 0.0133,
+      "ci_95_diff": [
+        -0.0188,
+        0.0455
+      ],
+      "t_statistic": 0.816,
+      "p_value": 0.415126,
+      "cohens_d": 0.047,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.1467,
+      "ci_95_diff": [
+        0.096,
+        0.1974
+      ],
+      "t_statistic": 5.692,
+      "p_value": 0.0,
+      "cohens_d": 0.329,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.1267,
+      "ci_95_diff": [
+        0.0705,
+        0.1829
+      ],
+      "t_statistic": 4.434,
+      "p_value": 1.3e-05,
+      "cohens_d": 0.256,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.2267,
+      "ci_95_diff": [
+        0.167,
+        0.2864
+      ],
+      "t_statistic": 7.47,
+      "p_value": 0.0,
+      "cohens_d": 0.431,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.4067,
+      "ci_95_diff": [
+        -0.4663,
+        -0.347
+      ],
+      "t_statistic": -13.419,
+      "p_value": 0.0,
+      "cohens_d": -0.775,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.19,
+      "ci_95_diff": [
+        0.1297,
+        0.2503
+      ],
+      "t_statistic": 6.203,
+      "p_value": 0.0,
+      "cohens_d": 0.358,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.1267,
+      "ci_95_diff": [
+        0.0744,
+        0.1789
+      ],
+      "t_statistic": 4.772,
+      "p_value": 3e-06,
+      "cohens_d": 0.276,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.4667,
+      "ci_95_diff": [
+        -0.5234,
+        -0.4099
+      ],
+      "t_statistic": -16.175,
+      "p_value": 0.0,
+      "cohens_d": -0.934,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "adversarial": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": -0.0267,
+      "ci_95_diff": [
+        -0.066,
+        0.0126
+      ],
+      "t_statistic": -1.335,
+      "p_value": 0.182869,
+      "cohens_d": -0.077,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.3667,
+      "ci_95_diff": [
+        0.3073,
+        0.426
+      ],
+      "t_statistic": 12.152,
+      "p_value": 0.0,
+      "cohens_d": 0.702,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.34,
+      "ci_95_diff": [
+        0.2745,
+        0.4055
+      ],
+      "t_statistic": 10.218,
+      "p_value": 0.0,
+      "cohens_d": 0.59,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.4433,
+      "ci_95_diff": [
+        0.3763,
+        0.5104
+      ],
+      "t_statistic": 13.018,
+      "p_value": 0.0,
+      "cohens_d": 0.752,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.3733,
+      "ci_95_diff": [
+        -0.4314,
+        -0.3152
+      ],
+      "t_statistic": -12.645,
+      "p_value": 0.0,
+      "cohens_d": -0.73,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.4767,
+      "ci_95_diff": [
+        0.4127,
+        0.5407
+      ],
+      "t_statistic": 14.66,
+      "p_value": 0.0,
+      "cohens_d": 0.846,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.35,
+      "ci_95_diff": [
+        0.2876,
+        0.4124
+      ],
+      "t_statistic": 11.034,
+      "p_value": 0.0,
+      "cohens_d": 0.637,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.4,
+      "ci_95_diff": [
+        -0.4558,
+        -0.3442
+      ],
+      "t_statistic": -14.119,
+      "p_value": 0.0,
+      "cohens_d": -0.815,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "anomaly": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": -0.0833,
+      "ci_95_diff": [
+        -0.1371,
+        -0.0296
+      ],
+      "t_statistic": -3.051,
+      "p_value": 0.002485,
+      "cohens_d": -0.176,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.1967,
+      "ci_95_diff": [
+        0.1396,
+        0.2537
+      ],
+      "t_statistic": 6.783,
+      "p_value": 0.0,
+      "cohens_d": 0.392,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.1867,
+      "ci_95_diff": [
+        0.1311,
+        0.2422
+      ],
+      "t_statistic": 6.609,
+      "p_value": 0.0,
+      "cohens_d": 0.382,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.2767,
+      "ci_95_diff": [
+        0.2164,
+        0.3369
+      ],
+      "t_statistic": 9.039,
+      "p_value": 0.0,
+      "cohens_d": 0.522,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.4333,
+      "ci_95_diff": [
+        -0.4989,
+        -0.3677
+      ],
+      "t_statistic": -13.0,
+      "p_value": 0.0,
+      "cohens_d": -0.751,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.2333,
+      "ci_95_diff": [
+        0.1697,
+        0.2969
+      ],
+      "t_statistic": 7.221,
+      "p_value": 0.0,
+      "cohens_d": 0.417,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.19,
+      "ci_95_diff": [
+        0.1319,
+        0.2481
+      ],
+      "t_statistic": 6.436,
+      "p_value": 0.0,
+      "cohens_d": 0.372,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.6067,
+      "ci_95_diff": [
+        -0.6623,
+        -0.5511
+      ],
+      "t_statistic": -21.475,
+      "p_value": 0.0,
+      "cohens_d": -1.24,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "synthetic_seed0": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": 0.02,
+      "ci_95_diff": [
+        -0.0182,
+        0.0582
+      ],
+      "t_statistic": 1.029,
+      "p_value": 0.304268,
+      "cohens_d": 0.059,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.3933,
+      "ci_95_diff": [
+        0.3333,
+        0.4534
+      ],
+      "t_statistic": 12.885,
+      "p_value": 0.0,
+      "cohens_d": 0.744,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.3367,
+      "ci_95_diff": [
+        0.2733,
+        0.4
+      ],
+      "t_statistic": 10.456,
+      "p_value": 0.0,
+      "cohens_d": 0.604,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.5067,
+      "ci_95_diff": [
+        0.442,
+        0.5714
+      ],
+      "t_statistic": 15.409,
+      "p_value": 0.0,
+      "cohens_d": 0.89,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.34,
+      "ci_95_diff": [
+        -0.3978,
+        -0.2822
+      ],
+      "t_statistic": -11.581,
+      "p_value": 0.0,
+      "cohens_d": -0.669,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.5167,
+      "ci_95_diff": [
+        0.4547,
+        0.5786
+      ],
+      "t_statistic": 16.41,
+      "p_value": 0.0,
+      "cohens_d": 0.947,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.38,
+      "ci_95_diff": [
+        0.3203,
+        0.4397
+      ],
+      "t_statistic": 12.516,
+      "p_value": 0.0,
+      "cohens_d": 0.723,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.39,
+      "ci_95_diff": [
+        -0.4455,
+        -0.3345
+      ],
+      "t_statistic": -13.826,
+      "p_value": 0.0,
+      "cohens_d": -0.798,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "synthetic_seed1": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": 0.02,
+      "ci_95_diff": [
+        -0.0204,
+        0.0604
+      ],
+      "t_statistic": 0.973,
+      "p_value": 0.331219,
+      "cohens_d": 0.056,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.35,
+      "ci_95_diff": [
+        0.2855,
+        0.4145
+      ],
+      "t_statistic": 10.685,
+      "p_value": 0.0,
+      "cohens_d": 0.617,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.3467,
+      "ci_95_diff": [
+        0.2823,
+        0.411
+      ],
+      "t_statistic": 10.6,
+      "p_value": 0.0,
+      "cohens_d": 0.612,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.4633,
+      "ci_95_diff": [
+        0.3974,
+        0.5292
+      ],
+      "t_statistic": 13.836,
+      "p_value": 0.0,
+      "cohens_d": 0.799,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.3567,
+      "ci_95_diff": [
+        -0.415,
+        -0.2983
+      ],
+      "t_statistic": -12.031,
+      "p_value": 0.0,
+      "cohens_d": -0.695,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.4567,
+      "ci_95_diff": [
+        0.3956,
+        0.5178
+      ],
+      "t_statistic": 14.711,
+      "p_value": 0.0,
+      "cohens_d": 0.849,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.39,
+      "ci_95_diff": [
+        0.3279,
+        0.4521
+      ],
+      "t_statistic": 12.356,
+      "p_value": 0.0,
+      "cohens_d": 0.713,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.39,
+      "ci_95_diff": [
+        -0.4455,
+        -0.3345
+      ],
+      "t_statistic": -13.826,
+      "p_value": 0.0,
+      "cohens_d": -0.798,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "synthetic_seed2": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": 0.0433,
+      "ci_95_diff": [
+        0.0026,
+        0.0841
+      ],
+      "t_statistic": 2.093,
+      "p_value": 0.037159,
+      "cohens_d": 0.121,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.4033,
+      "ci_95_diff": [
+        0.3396,
+        0.4671
+      ],
+      "t_statistic": 12.446,
+      "p_value": 0.0,
+      "cohens_d": 0.719,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.3767,
+      "ci_95_diff": [
+        0.3121,
+        0.4412
+      ],
+      "t_statistic": 11.488,
+      "p_value": 0.0,
+      "cohens_d": 0.663,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.5133,
+      "ci_95_diff": [
+        0.4473,
+        0.5794
+      ],
+      "t_statistic": 15.302,
+      "p_value": 0.0,
+      "cohens_d": 0.883,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.3133,
+      "ci_95_diff": [
+        -0.3723,
+        -0.2544
+      ],
+      "t_statistic": -10.456,
+      "p_value": 0.0,
+      "cohens_d": -0.604,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.5033,
+      "ci_95_diff": [
+        0.4407,
+        0.566
+      ],
+      "t_statistic": 15.803,
+      "p_value": 0.0,
+      "cohens_d": 0.912,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.4133,
+      "ci_95_diff": [
+        0.3501,
+        0.4766
+      ],
+      "t_statistic": 12.854,
+      "p_value": 0.0,
+      "cohens_d": 0.742,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.3633,
+      "ci_95_diff": [
+        -0.4181,
+        -0.3086
+      ],
+      "t_statistic": -13.063,
+      "p_value": 0.0,
+      "cohens_d": -0.754,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "synthetic_seed3": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": -0.02,
+      "ci_95_diff": [
+        -0.0625,
+        0.0225
+      ],
+      "t_statistic": -0.926,
+      "p_value": 0.355401,
+      "cohens_d": -0.053,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.3833,
+      "ci_95_diff": [
+        0.3228,
+        0.4439
+      ],
+      "t_statistic": 12.459,
+      "p_value": 0.0,
+      "cohens_d": 0.719,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.3467,
+      "ci_95_diff": [
+        0.2843,
+        0.409
+      ],
+      "t_statistic": 10.948,
+      "p_value": 0.0,
+      "cohens_d": 0.632,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.48,
+      "ci_95_diff": [
+        0.4153,
+        0.5447
+      ],
+      "t_statistic": 14.606,
+      "p_value": 0.0,
+      "cohens_d": 0.843,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.3533,
+      "ci_95_diff": [
+        -0.4123,
+        -0.2944
+      ],
+      "t_statistic": -11.791,
+      "p_value": 0.0,
+      "cohens_d": -0.681,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.4733,
+      "ci_95_diff": [
+        0.4121,
+        0.5345
+      ],
+      "t_statistic": 15.217,
+      "p_value": 0.0,
+      "cohens_d": 0.879,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.3633,
+      "ci_95_diff": [
+        0.2998,
+        0.4268
+      ],
+      "t_statistic": 11.26,
+      "p_value": 0.0,
+      "cohens_d": 0.65,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.39,
+      "ci_95_diff": [
+        -0.4455,
+        -0.3345
+      ],
+      "t_statistic": -13.826,
+      "p_value": 0.0,
+      "cohens_d": -0.798,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ],
+  "synthetic_seed4": [
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAACR",
+      "mean_diff": -0.0033,
+      "ci_95_diff": [
+        -0.0503,
+        0.0436
+      ],
+      "t_statistic": -0.14,
+      "p_value": 0.888913,
+      "cohens_d": -0.008,
+      "significant_holm": false,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoBCWarm",
+      "mean_diff": 0.41,
+      "ci_95_diff": [
+        0.3461,
+        0.4739
+      ],
+      "t_statistic": 12.627,
+      "p_value": 0.0,
+      "cohens_d": 0.729,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "EmRL-NoAttn",
+      "mean_diff": 0.3833,
+      "ci_95_diff": [
+        0.3207,
+        0.446
+      ],
+      "t_statistic": 12.041,
+      "p_value": 0.0,
+      "cohens_d": 0.695,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "DQN-flat",
+      "mean_diff": 0.5167,
+      "ci_95_diff": [
+        0.45,
+        0.5833
+      ],
+      "t_statistic": 15.253,
+      "p_value": 0.0,
+      "cohens_d": 0.881,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "ClassicalCGR",
+      "mean_diff": -0.33,
+      "ci_95_diff": [
+        -0.3911,
+        -0.2689
+      ],
+      "t_statistic": -10.637,
+      "p_value": 0.0,
+      "cohens_d": -0.614,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "AdaptiveCGR",
+      "mean_diff": 0.5133,
+      "ci_95_diff": [
+        0.4521,
+        0.5746
+      ],
+      "t_statistic": 16.488,
+      "p_value": 0.0,
+      "cohens_d": 0.952,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "SprayAndWait",
+      "mean_diff": 0.4167,
+      "ci_95_diff": [
+        0.3533,
+        0.48
+      ],
+      "t_statistic": 12.946,
+      "p_value": 0.0,
+      "cohens_d": 0.747,
+      "significant_holm": true,
+      "n_pairs": 300
+    },
+    {
+      "agent_a": "EmRL-Full",
+      "agent_b": "Oracle",
+      "mean_diff": -0.38,
+      "ci_95_diff": [
+        -0.4352,
+        -0.3248
+      ],
+      "t_statistic": -13.537,
+      "p_value": 0.0,
+      "cohens_d": -0.782,
+      "significant_holm": true,
+      "n_pairs": 300
+    }
+  ]
+}

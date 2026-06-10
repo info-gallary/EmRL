@@ -1,0 +1,15 @@
+{
+  "feature_importance": {
+    "active": 1.1021,
+    "receiver": 0.1354,
+    "start time": 0.6686,
+    "duration": 0.0519,
+    "data rate": 0.0759,
+    "energy": 0.0911,
+    "reliability (AACR)": 0.4263,
+    "dest. distance": 0.0811,
+    "delivery potential": 1.2656
+  },
+  "corr_potential_select": 0.473,
+  "n_states": 500
+}

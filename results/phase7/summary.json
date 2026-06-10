@@ -1,0 +1,12 @@
+{
+  "phase": 7,
+  "K": 16,
+  "obs_dim": 118,
+  "action_dim": 18,
+  "reliability_shaping": 2.0,
+  "anomaly_rate": 0.25,
+  "ppo_steps": 4000000,
+  "best_bdr": 0.68,
+  "best_checkpoint": "checkpoints\\phase7\\best_model_bdr0.6800.pt",
+  "elapsed_hours": 5.16
+}

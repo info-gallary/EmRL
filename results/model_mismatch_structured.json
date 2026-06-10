@@ -1,0 +1,92 @@
+{
+  "0.0": {
+    "bad_nodes": [
+      3
+    ],
+    "n_degraded": 162,
+    "EmRL": 0.7633,
+    "RUCoP": 0.7533,
+    "CGR": 0.8033,
+    "RUCoP-Oracle": 0.77,
+    "S&W": 0.1733,
+    "Oracle": 0.99
+  },
+  "0.1": {
+    "bad_nodes": [
+      4,
+      14
+    ],
+    "n_degraded": 236,
+    "EmRL": 0.6633,
+    "RUCoP": 0.6667,
+    "CGR": 0.6867,
+    "RUCoP-Oracle": 0.6833,
+    "S&W": 0.2267,
+    "Oracle": 0.9933
+  },
+  "0.2": {
+    "bad_nodes": [
+      4,
+      12,
+      14
+    ],
+    "n_degraded": 366,
+    "EmRL": 0.6233,
+    "RUCoP": 0.6033,
+    "CGR": 0.64,
+    "RUCoP-Oracle": 0.63,
+    "S&W": 0.12,
+    "Oracle": 0.99
+  },
+  "0.3": {
+    "bad_nodes": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "n_degraded": 584,
+    "EmRL": 0.5567,
+    "RUCoP": 0.5567,
+    "CGR": 0.6033,
+    "RUCoP-Oracle": 0.6033,
+    "S&W": 0.16,
+    "Oracle": 0.9933
+  },
+  "0.4": {
+    "bad_nodes": [
+      0,
+      2,
+      4,
+      5,
+      7,
+      11
+    ],
+    "n_degraded": 770,
+    "EmRL": 0.36,
+    "RUCoP": 0.3533,
+    "CGR": 0.4,
+    "RUCoP-Oracle": 0.37,
+    "S&W": 0.12,
+    "Oracle": 0.99
+  },
+  "0.5": {
+    "bad_nodes": [
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
+    "n_degraded": 876,
+    "EmRL": 0.3067,
+    "RUCoP": 0.3533,
+    "CGR": 0.3567,
+    "RUCoP-Oracle": 0.36,
+    "S&W": 0.1533,
+    "Oracle": 0.9967
+  }
+}

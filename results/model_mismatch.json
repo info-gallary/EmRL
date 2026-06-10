@@ -1,0 +1,65 @@
+{
+  "0.0": {
+    "n_drifted": 0,
+    "EmRL": 0.9,
+    "RUCoP": 0.91,
+    "CGR": 0.9533,
+    "RUCoP-Oracle": 0.91,
+    "S&W": 0.23,
+    "Oracle": 0.9933
+  },
+  "0.1": {
+    "n_drifted": 134,
+    "EmRL": 0.83,
+    "RUCoP": 0.8533,
+    "CGR": 0.8767,
+    "RUCoP-Oracle": 0.86,
+    "S&W": 0.2167,
+    "Oracle": 0.98
+  },
+  "0.2": {
+    "n_drifted": 263,
+    "EmRL": 0.7567,
+    "RUCoP": 0.7067,
+    "CGR": 0.79,
+    "RUCoP-Oracle": 0.79,
+    "S&W": 0.25,
+    "Oracle": 0.9967
+  },
+  "0.3": {
+    "n_drifted": 368,
+    "EmRL": 0.7633,
+    "RUCoP": 0.7033,
+    "CGR": 0.7333,
+    "RUCoP-Oracle": 0.7633,
+    "S&W": 0.2233,
+    "Oracle": 0.9933
+  },
+  "0.4": {
+    "n_drifted": 528,
+    "EmRL": 0.5933,
+    "RUCoP": 0.57,
+    "CGR": 0.62,
+    "RUCoP-Oracle": 0.6333,
+    "S&W": 0.1733,
+    "Oracle": 0.9867
+  },
+  "0.5": {
+    "n_drifted": 647,
+    "EmRL": 0.5,
+    "RUCoP": 0.5133,
+    "CGR": 0.4867,
+    "RUCoP-Oracle": 0.5433,
+    "S&W": 0.1667,
+    "Oracle": 0.9867
+  },
+  "0.6": {
+    "n_drifted": 818,
+    "EmRL": 0.35,
+    "RUCoP": 0.3667,
+    "CGR": 0.3967,
+    "RUCoP-Oracle": 0.4367,
+    "S&W": 0.1333,
+    "Oracle": 0.9867
+  }
+}

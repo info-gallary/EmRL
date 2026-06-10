@@ -1,0 +1,58 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[oc]
+*.egg-info
+build/
+dist/
+wheels/
+.ipynb_checkpoints/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Large data (NOT for GitHub — 30 GB ESA telemetry, regenerable plans) ───────
+data/
+
+# ── Trained models — keep only the canonical final/ set (~21 MB) ───────────────
+# Intermediate phase*/step checkpoints (hundreds of MB) are excluded; the
+# canonical models in checkpoints/final/ ARE tracked for reproducibility.
+checkpoints/*
+!checkpoints/final/
+
+# ── Training logs / TensorBoard ────────────────────────────────────────────────
+results/**/logs/
+*.log
+*.out
+
+# ── Build artifacts / bundles ──────────────────────────────────────────────────
+*.zip
+
+# ── Editor / OS / agent ────────────────────────────────────────────────────────
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Superseded / scratch (kept on disk, excluded from the repo) ────────────────
+# Old auto-generated figures at repo root (regenerate via scripts/visualization/).
+# Root-anchored so it does NOT match deliverables/figures/ (which IS tracked).
+/figures/
+# Superseded experiment scripts (provenance only).
+archive/
+results/
+# Earlier scratch docs — current manuscript lives in deliverables/MANUSCRIPT.md.
+paper_draft.md
+context.md
+reviewer_response.md
+colab_train.ipynb
+
+# Checkpoint backups
+*.bak
+
+# ── Documentation: ONLY the root README.md is tracked ──────────────────────────
+# All other markdown (paper drafts, co-author kit, sub-folder READMEs) is private.
+*.md
+!/README.md

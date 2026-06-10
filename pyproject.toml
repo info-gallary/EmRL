@@ -1,0 +1,25 @@
+[project]
+name = "emrl"
+version = "0.1.0"
+description = "EmRL: PPO-based adaptive DTN routing"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.5.0",
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.7.0",
+    "pandas>=2.0.0",
+    "gymnasium>=0.29.0",
+    "tqdm>=4.65.0",
+]
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu128" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
