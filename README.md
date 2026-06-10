@@ -13,55 +13,51 @@ Anomaly-Aware Contact Reliability (AACR).
 
 ---
 
-## Repository layout
+## How EmRL works
 
+Each hop, EmRL turns the contact plan into a **delivery-potential field** (how
+likely each node is to reach the destination), uses it to **gate** the *K* most
+promising candidate contacts into the policy's view, and a **contact-attention
+PPO** head picks the next hop — forwarding on contacts that are both reliable
+(AACR) and goal-directed.
+
+```mermaid
+flowchart LR
+    A["Contact plan<br/>+ AACR reliability<br/>(live telemetry)"] --> B["Reachability encoder<br/><i>delivery-potential</i><br/>value iteration"]
+    B --> C["Reachability-guided<br/>Top-K gating<br/>(K = 16)"]
+    C --> D["Contact-attention<br/>actor–critic (PPO)"]
+    D --> E["Action:<br/>forward · hold · drop"]
+    E -. "next hop" .-> A
+    style B fill:#d4e6c3,stroke:#333
+    style C fill:#fde9c8,stroke:#333
+    style D fill:#f6d3d3,stroke:#333
 ```
-src/                         # Core package
-├── env/                     # DTN environment + contact-plan generators
-│   ├── dtn_env.py           #   Gymnasium env (K-configurable obs, anomaly injection,
-│   │                        #   reliability-shaped reward)
-│   ├── contact_plan.py      #   RRN-A / RRN-B / synthetic topology generators
-│   ├── bundle.py            #   Bundle (packet) model
-│   └── anomaly_loader.py    #   ESA spacecraft-anomaly telemetry loader (AACR)
-├── agents/
-│   ├── ppo_agent.py         #   PPO agent (clip objective, GAE)
-│   ├── networks.py          #   Contact-attention actor-critic (K-agnostic)
-│   ├── rl_adapter.py        #   Routing adapter wrapping a trained PPO policy
-│   ├── classical_cgr.py     #   ClassicalCGR (RFC 6260), AdaptiveCGR, Spray-and-Wait
-│   ├── dqn_agent.py         #   DQN baseline
-│   └── oracle.py            #   Oracle (upper-bound BDR)
-├── training/
-│   ├── trainer.py           #   PPO training loop + curriculum
-│   └── bc_warmup.py         #   Behavioral-cloning warm-up (clones ClassicalCGR)
-├── evaluation/
-│   ├── evaluator.py         #   Episode runner / routing env
-│   └── metrics.py           #   BDR, delay, energy, 95% CIs
-└── analysis/
-    └── stats.py             #   Paired t-tests, Holm correction, Cohen's d
 
-# Entry points — ALWAYS run from repo root, e.g. `uv run python scripts/...`
-main.py                      # train | eval | full pipeline
-scripts/
-├── training/
-│   ├── run_train.py             # baseline PPO curriculum (K=10)
-│   ├── run_phase7_train.py      # FINAL model: wide-obs (K=16) BC + reliability-shaped PPO
-│   ├── run_no_bc_train.py       # ablation: no BC warm-up
-│   ├── run_no_attn_train.py     # ablation: no contact attention
-│   └── run_dqn_train.py         # baseline: DQN
-├── evaluation/
-│   ├── run_eval_full.py             # 300-episode eval, all baselines + paired stats
-│   ├── run_drastic_difference.py    # HEADLINE: bottleneck-hub jamming (CGR collapses)
-│   ├── run_adversarial_targeting.py # hub-targeting severity sweep
-│   └── run_behavioral_analysis.py   # action distributions + trajectories
-└── visualization/
-    ├── make_publication_outputs.py  # generates deliverables/ (figures + tables)
-    └── plot_results.py              # legacy 16-figure generator (K=10 results)
+**Training pipeline:**
 
-checkpoints/final/           # canonical trained models (see below)
-results/                     # evaluation JSON outputs
-deliverables/                # publication figures + tables (for mentor/paper)
-archive/                     # superseded experiment scripts (kept for provenance)
+```mermaid
+flowchart LR
+    T1["Behavioral-cloning<br/>warm-up<br/>(clone Classical CGR)"] --> T2["Reliability-shaped PPO<br/>+ per-episode<br/>anomaly injection"]
+    T2 --> T3["Topology zoo<br/>RRN-A/B +<br/>Walker 23/52/100"]
+    T3 --> M(["EmRL policy"])
+    style M fill:#0b6,color:#fff,stroke:#333
 ```
+
+### Architecture
+
+![EmRL architecture](deliverables/figures/fig11_architecture.png)
+
+### Reachability encoder + learned routing on a 3D LEO constellation
+
+![3D constellation](deliverables/figures/fig14_constellation_3d.png)
+
+### Why it resists jamming — detour vs. route-into-the-hub
+
+![Routing under jamming](deliverables/figures/fig15_network_graph.png)
+
+### Scales across constellation sizes
+
+![Scalability](deliverables/figures/fig6_scalability.png)
 
 ## Canonical models (`checkpoints/final/`)
 
