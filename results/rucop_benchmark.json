@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "metric": "Successful Delivery Probability (Monte-Carlo)",
+    "n_nodes": 14,
+    "degree": 4,
+    "n_flows": 300,
+    "n_seeds": 4,
+    "rel_levels": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "K": 16,
+    "anchor": "RUCoP (our reimplementation of Raverta et al. 2021)"
+  },
+  "sdp_by_level": {
+    "RUCoP (anchor)": {
+      "0.50": {
+        "sdp": 0.7692,
+        "std": 0.0175
+      },
+      "0.60": {
+        "sdp": 0.85,
+        "std": 0.0264
+      },
+      "0.70": {
+        "sdp": 0.9242,
+        "std": 0.0092
+      },
+      "0.80": {
+        "sdp": 0.9733,
+        "std": 0.0075
+      },
+      "0.90": {
+        "sdp": 1.0,
+        "std": 0.0
+      }
+    },
+    "CGR": {
+      "0.50": {
+        "sdp": 0.9683,
+        "std": 0.005
+      },
+      "0.60": {
+        "sdp": 0.9975,
+        "std": 0.0014
+      },
+      "0.70": {
+        "sdp": 0.9992,
+        "std": 0.0014
+      },
+      "0.80": {
+        "sdp": 1.0,
+        "std": 0.0
+      },
+      "0.90": {
+        "sdp": 1.0,
+        "std": 0.0
+      }
+    },
+    "EmRL-PPO": {
+      "0.50": {
+        "sdp": 0.8917,
+        "std": 0.0037
+      },
+      "0.60": {
+        "sdp": 0.9642,
+        "std": 0.0104
+      },
+      "0.70": {
+        "sdp": 0.9783,
+        "std": 0.006
+      },
+      "0.80": {
+        "sdp": 0.9267,
+        "std": 0.0075
+      },
+      "0.90": {
+        "sdp": 0.8233,
+        "std": 0.0347
+      }
+    },
+    "Reach-Greedy": {
+      "0.50": {
+        "sdp": 0.915,
+        "std": 0.005
+      },
+      "0.60": {
+        "sdp": 0.9658,
+        "std": 0.0036
+      },
+      "0.70": {
+        "sdp": 0.9858,
+        "std": 0.0014
+      },
+      "0.80": {
+        "sdp": 0.9967,
+        "std": 0.0041
+      },
+      "0.90": {
+        "sdp": 0.9958,
+        "std": 0.0043
+      }
+    },
+    "Spray-L2": {
+      "0.50": {
+        "sdp": 0.7733,
+        "std": 0.0162
+      },
+      "0.60": {
+        "sdp": 0.7925,
+        "std": 0.0119
+      },
+      "0.70": {
+        "sdp": 0.8067,
+        "std": 0.0113
+      },
+      "0.80": {
+        "sdp": 0.7983,
+        "std": 0.0101
+      },
+      "0.90": {
+        "sdp": 0.8058,
+        "std": 0.0123
+      }
+    }
+  },
+  "sdp_over_rucop": {
+    "RUCoP (anchor)": 1.0,
+    "CGR": 1.099,
+    "EmRL-PPO": 1.015,
+    "Reach-Greedy": 1.076,
+    "Spray-L2": 0.88
+  },
+  "grogu": {
+    "note": "GROGU reports SDP relative to RUCoP on the shared RUCoP benchmark. Insert GROGU's published SDP/RUCoP ratio here from Tab. of hal-05413586 to complete the indirect comparison via the shared anchor.",
+    "sdp_over_rucop": null
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "baseline": {
+    "SL+AACR": {
+      "bdr": 0.8733,
+      "delay": 3935.2
+    },
+    "SL-NoAACR": {
+      "bdr": 0.77,
+      "delay": 3960.5
+    },
+    "CGR-Online": {
+      "bdr": 0.9533,
+      "delay": 3445.3
+    },
+    "S&W": {
+      "bdr": 0.22,
+      "delay": 2049.7
+    },
+    "CGR-Offline": {
+      "bdr": 0.9067,
+      "delay": 3361.7
+    }
+  },
+  "relay2_sev0.4-0.6": {
+    "nodes": [
+      13,
+      12
+    ],
+    "n_links": 264,
+    "SL+AACR": {
+      "bdr": 0.7967,
+      "delay": 3758.2
+    },
+    "SL-NoAACR": {
+      "bdr": 0.66,
+      "delay": 3868.2
+    },
+    "CGR-Online": {
+      "bdr": 0.8167,
+      "delay": 3452.4
+    },
+    "S&W": {
+      "bdr": 0.2,
+      "delay": 2222.2
+    },
+    "CGR-Offline": {
+      "bdr": 0.6367,
+      "delay": 3010.8
+    }
+  },
+  "relay2_sev0.3-0.45": {
+    "nodes": [
+      13,
+      12
+    ],
+    "n_links": 264,
+    "SL+AACR": {
+      "bdr": 0.74,
+      "delay": 3786.8
+    },
+    "SL-NoAACR": {
+      "bdr": 0.6633,
+      "delay": 3972.2
+    },
+    "CGR-Online": {
+      "bdr": 0.7967,
+      "delay": 3528.4
+    },
+    "S&W": {
+      "bdr": 0.1933,
+      "delay": 2517.3
+    },
+    "CGR-Offline": {
+      "bdr": 0.5833,
+      "delay": 3037.5
+    }
+  },
+  "relay2_sev0.2-0.35": {
+    "nodes": [
+      13,
+      12
+    ],
+    "n_links": 264,
+    "SL+AACR": {
+      "bdr": 0.7333,
+      "delay": 3838.6
+    },
+    "SL-NoAACR": {
+      "bdr": 0.6767,
+      "delay": 4116.3
+    },
+    "CGR-Online": {
+      "bdr": 0.7667,
+      "delay": 3523.8
+    },
+    "S&W": {
+      "bdr": 0.1867,
+      "delay": 2225.2
+    },
+    "CGR-Offline": {
+      "bdr": 0.56,
+      "delay": 3087.6
+    }
+  },
+  "relay3_sev0.4-0.6": {
+    "nodes": [
+      13,
+      12,
+      3
+    ],
+    "n_links": 372,
+    "SL+AACR": {
+      "bdr": 0.7333,
+      "delay": 3774.8
+    },
+    "SL-NoAACR": {
+      "bdr": 0.6167,
+      "delay": 3981.2
+    },
+    "CGR-Online": {
+      "bdr": 0.7767,
+      "delay": 3341.5
+    },
+    "S&W": {
+      "bdr": 0.1967,
+      "delay": 2166.8
+    },
+    "CGR-Offline": {
+      "bdr": 0.5933,
+      "delay": 3054.8
+    }
+  },
+  "relay3_sev0.3-0.45": {
+    "nodes": [
+      13,
+      12,
+      3
+    ],
+    "n_links": 372,
+    "SL+AACR": {
+      "bdr": 0.7233,
+      "delay": 3821.4
+    },
+    "SL-NoAACR": {
+      "bdr": 0.6167,
+      "delay": 4044.0
+    },
+    "CGR-Online": {
+      "bdr": 0.7033,
+      "delay": 3326.2
+    },
+    "S&W": {
+      "bdr": 0.1767,
+      "delay": 2142.5
+    },
+    "CGR-Offline": {
+      "bdr": 0.54,
+      "delay": 2913.5
+    }
+  },
+  "relay3_sev0.2-0.35": {
+    "nodes": [
+      13,
+      12,
+      3
+    ],
+    "n_links": 372,
+    "SL+AACR": {
+      "bdr": 0.64,
+      "delay": 3798.0
+    },
+    "SL-NoAACR": {
+      "bdr": 0.59,
+      "delay": 3864.6
+    },
+    "CGR-Online": {
+      "bdr": 0.7067,
+      "delay": 3504.7
+    },
+    "S&W": {
+      "bdr": 0.1767,
+      "delay": 2081.7
+    },
+    "CGR-Offline": {
+      "bdr": 0.5333,
+      "delay": 3054.1
+    }
+  },
+  "relay4_sev0.4-0.6": {
+    "nodes": [
+      13,
+      12,
+      3,
+      11
+    ],
+    "n_links": 506,
+    "SL+AACR": {
+      "bdr": 0.72,
+      "delay": 3739.9
+    },
+    "SL-NoAACR": {
+      "bdr": 0.6467,
+      "delay": 3889.1
+    },
+    "CGR-Online": {
+      "bdr": 0.75,
+      "delay": 3633.5
+    },
+    "S&W": {
+      "bdr": 0.1833,
+      "delay": 2103.5
+    },
+    "CGR-Offline": {
+      "bdr": 0.5367,
+      "delay": 3020.0
+    }
+  },
+  "relay4_sev0.3-0.45": {
+    "nodes": [
+      13,
+      12,
+      3,
+      11
+    ],
+    "n_links": 506,
+    "SL+AACR": {
+      "bdr": 0.66,
+      "delay": 3875.2
+    },
+    "SL-NoAACR": {
+      "bdr": 0.5833,
+      "delay": 3992.2
+    },
+    "CGR-Online": {
+      "bdr": 0.6567,
+      "delay": 3574.5
+    },
+    "S&W": {
+      "bdr": 0.1967,
+      "delay": 2166.3
+    },
+    "CGR-Offline": {
+      "bdr": 0.4433,
+      "delay": 2943.2
+    }
+  },
+  "relay4_sev0.2-0.35": {
+    "nodes": [
+      13,
+      12,
+      3,
+      11
+    ],
+    "n_links": 506,
+    "SL+AACR": {
+      "bdr": 0.6167,
+      "delay": 3729.3
+    },
+    "SL-NoAACR": {
+      "bdr": 0.5833,
+      "delay": 3910.2
+    },
+    "CGR-Online": {
+      "bdr": 0.5867,
+      "delay": 3434.5
+    },
+    "S&W": {
+      "bdr": 0.1767,
+      "delay": 1923.1
+    },
+    "CGR-Offline": {
+      "bdr": 0.4333,
+      "delay": 2841.4
+    }
+  }
+}

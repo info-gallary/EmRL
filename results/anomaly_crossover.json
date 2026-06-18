@@ -1,0 +1,125 @@
+{
+  "sweep_fraction": {
+    "0%": {
+      "EmRL": 0.66,
+      "ClassicalCGR": 0.95,
+      "SprayAndWait": 0.205
+    },
+    "10%": {
+      "EmRL": 0.595,
+      "ClassicalCGR": 0.9,
+      "SprayAndWait": 0.2
+    },
+    "20%": {
+      "EmRL": 0.45,
+      "ClassicalCGR": 0.81,
+      "SprayAndWait": 0.18
+    },
+    "30%": {
+      "EmRL": 0.365,
+      "ClassicalCGR": 0.715,
+      "SprayAndWait": 0.195
+    },
+    "40%": {
+      "EmRL": 0.295,
+      "ClassicalCGR": 0.605,
+      "SprayAndWait": 0.17
+    },
+    "50%": {
+      "EmRL": 0.245,
+      "ClassicalCGR": 0.485,
+      "SprayAndWait": 0.175
+    },
+    "60%": {
+      "EmRL": 0.15,
+      "ClassicalCGR": 0.355,
+      "SprayAndWait": 0.135
+    },
+    "70%": {
+      "EmRL": 0.13,
+      "ClassicalCGR": 0.3,
+      "SprayAndWait": 0.145
+    },
+    "80%": {
+      "EmRL": 0.06,
+      "ClassicalCGR": 0.23,
+      "SprayAndWait": 0.125
+    },
+    "90%": {
+      "EmRL": 0.045,
+      "ClassicalCGR": 0.115,
+      "SprayAndWait": 0.11
+    }
+  },
+  "sweep_severity": {
+    "None": {
+      "EmRL": 0.67,
+      "ClassicalCGR": 0.965,
+      "SprayAndWait": 0.21
+    },
+    "Minimal": {
+      "EmRL": 0.615,
+      "ClassicalCGR": 0.905,
+      "SprayAndWait": 0.195
+    },
+    "Mild": {
+      "EmRL": 0.465,
+      "ClassicalCGR": 0.79,
+      "SprayAndWait": 0.185
+    },
+    "Moderate": {
+      "EmRL": 0.315,
+      "ClassicalCGR": 0.62,
+      "SprayAndWait": 0.195
+    },
+    "Severe": {
+      "EmRL": 0.21,
+      "ClassicalCGR": 0.48,
+      "SprayAndWait": 0.175
+    },
+    "Critical": {
+      "EmRL": 0.155,
+      "ClassicalCGR": 0.37,
+      "SprayAndWait": 0.14
+    }
+  },
+  "combined": {
+    "50% fraction + Critical": {
+      "EmRL": 0.165,
+      "ClassicalCGR": 0.39,
+      "SprayAndWait": 0.12
+    },
+    "60% fraction + Critical": {
+      "EmRL": 0.135,
+      "ClassicalCGR": 0.33,
+      "SprayAndWait": 0.13
+    },
+    "70% fraction + Critical": {
+      "EmRL": 0.11,
+      "ClassicalCGR": 0.245,
+      "SprayAndWait": 0.135
+    },
+    "80% fraction + Critical": {
+      "EmRL": 0.07,
+      "ClassicalCGR": 0.145,
+      "SprayAndWait": 0.095
+    },
+    "70% fraction + Severe": {
+      "EmRL": 0.15,
+      "ClassicalCGR": 0.325,
+      "SprayAndWait": 0.14
+    },
+    "80% fraction + Severe": {
+      "EmRL": 0.08,
+      "ClassicalCGR": 0.245,
+      "SprayAndWait": 0.09
+    },
+    "90% fraction + Severe": {
+      "EmRL": 0.06,
+      "ClassicalCGR": 0.155,
+      "SprayAndWait": 0.09
+    }
+  },
+  "crossover_fraction": null,
+  "crossover_severity": null
+}

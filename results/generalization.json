@@ -1,0 +1,223 @@
+{
+  "G1_Walker-23": {
+    "EmRL": {
+      "bdr": 0.98,
+      "delay": 1270.7,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 120.3,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.98,
+      "delay": 4584.1,
+      "oracle": 1.0
+    }
+  },
+  "G1_Walker-52": {
+    "EmRL": {
+      "bdr": 0.84,
+      "delay": 1854.9,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 227.4,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 1.0,
+      "delay": 5096.6,
+      "oracle": 1.0
+    }
+  },
+  "G1_Walker-100": {
+    "EmRL": {
+      "bdr": 0.8,
+      "delay": 1783.5,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 275.8,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.9667,
+      "delay": 4920.6,
+      "oracle": 1.0
+    }
+  },
+  "G2_uniform_high": {
+    "EmRL": {
+      "bdr": 0.94,
+      "delay": 1534.2,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 247.6,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.9933,
+      "delay": 4705.2,
+      "oracle": 1.0
+    }
+  },
+  "G2_uniform_low": {
+    "EmRL": {
+      "bdr": 0.5533,
+      "delay": 2930.9,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 0.7667,
+      "delay": 2805.8,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.6067,
+      "delay": 4814.0,
+      "oracle": 1.0
+    }
+  },
+  "G2_bimodal": {
+    "EmRL": {
+      "bdr": 0.8467,
+      "delay": 2531.5,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 0.9,
+      "delay": 2156.9,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.94,
+      "delay": 5059.4,
+      "oracle": 1.0
+    }
+  },
+  "G2_weibull": {
+    "EmRL": {
+      "bdr": 0.54,
+      "delay": 2798.7,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 0.8467,
+      "delay": 2408.6,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.8067,
+      "delay": 3261.9,
+      "oracle": 1.0
+    }
+  },
+  "G3_400km": {
+    "EmRL": {
+      "bdr": 0.9333,
+      "delay": 1319.5,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 166.4,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.9867,
+      "delay": 4903.1,
+      "oracle": 1.0
+    }
+  },
+  "G3_800km": {
+    "EmRL": {
+      "bdr": 0.9667,
+      "delay": 1466.0,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 237.7,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.96,
+      "delay": 4938.0,
+      "oracle": 1.0
+    }
+  },
+  "G3_1200km": {
+    "EmRL": {
+      "bdr": 0.9733,
+      "delay": 1654.4,
+      "oracle": 1.0
+    },
+    "CGR": {
+      "bdr": 1.0,
+      "delay": 269.1,
+      "oracle": 1.0
+    },
+    "RUCoP": {
+      "bdr": 0.9867,
+      "delay": 5168.1,
+      "oracle": 1.0
+    }
+  },
+  "G4_single_hub": {
+    "EmRL": {
+      "bdr": 0.8133,
+      "delay": 3509.5,
+      "oracle": 0.9933
+    },
+    "CGR": {
+      "bdr": 0.8667,
+      "delay": 3385.0,
+      "oracle": 0.9933
+    },
+    "RUCoP": {
+      "bdr": 0.8267,
+      "delay": 3945.3,
+      "oracle": 0.9933
+    }
+  },
+  "G4_two_hub": {
+    "EmRL": {
+      "bdr": 0.76,
+      "delay": 3631.4,
+      "oracle": 0.9933
+    },
+    "CGR": {
+      "bdr": 0.8,
+      "delay": 3387.5,
+      "oracle": 0.9933
+    },
+    "RUCoP": {
+      "bdr": 0.7733,
+      "delay": 3971.9,
+      "oracle": 0.9933
+    }
+  },
+  "G4_random_30": {
+    "EmRL": {
+      "bdr": 0.6067,
+      "delay": 3865.6,
+      "oracle": 0.9933
+    },
+    "CGR": {
+      "bdr": 0.6133,
+      "delay": 3479.7,
+      "oracle": 0.9933
+    },
+    "RUCoP": {
+      "bdr": 0.6333,
+      "delay": 4274.4,
+      "oracle": 0.9933
+    }
+  }
+}

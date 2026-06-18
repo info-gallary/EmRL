@@ -1,0 +1,22 @@
+{
+  "phase": 12,
+  "K": 16,
+  "obs_dim": 150,
+  "held_out": "iridium-NEXT",
+  "warm_start": "checkpoints\\final\\emrl_main_k16.pt",
+  "tle_groups": [
+    "orbcomm",
+    "globalstar",
+    "oneweb"
+  ],
+  "n_tle_plans": 3,
+  "n_syn_plans": 3,
+  "anomaly_rate": 0.15,
+  "reliability_shaping": 1.5,
+  "ppo_steps": 350000,
+  "bc_episodes": 5000,
+  "best_bdr": 0.8166666666666667,
+  "best_checkpoint": "checkpoints\\phase12_tle_holdout_iridium-NEXT\\best_model_bdr0.8167.pt",
+  "promoted": "checkpoints/final/emrl_tle_ft_holdout_iridium-NEXT_k16.pt",
+  "elapsed_hours": 0.74
+}

@@ -1,0 +1,80 @@
+{
+  "RRN-A (18)": {
+    "K=8": {
+      "bdr": 0.89,
+      "oracle": 0.99,
+      "ms_per_decision": 7.944,
+      "peak_mb": 0.2
+    },
+    "K=16": {
+      "bdr": 0.875,
+      "oracle": 0.99,
+      "ms_per_decision": 7.58,
+      "peak_mb": 0.2
+    },
+    "K=32": {
+      "bdr": 0.855,
+      "oracle": 0.99,
+      "ms_per_decision": 8.773,
+      "peak_mb": 0.2
+    },
+    "K=64": {
+      "bdr": 0.835,
+      "oracle": 0.99,
+      "ms_per_decision": 13.778,
+      "peak_mb": 0.2
+    }
+  },
+  "Walker-52": {
+    "K=8": {
+      "bdr": 0.88,
+      "oracle": 1.0,
+      "ms_per_decision": 20.639,
+      "peak_mb": 0.6
+    },
+    "K=16": {
+      "bdr": 0.9067,
+      "oracle": 1.0,
+      "ms_per_decision": 21.503,
+      "peak_mb": 0.2
+    },
+    "K=32": {
+      "bdr": 0.9467,
+      "oracle": 1.0,
+      "ms_per_decision": 17.462,
+      "peak_mb": 0.2
+    },
+    "K=64": {
+      "bdr": 0.9933,
+      "oracle": 1.0,
+      "ms_per_decision": 10.392,
+      "peak_mb": 0.2
+    }
+  },
+  "Walker-100": {
+    "K=8": {
+      "bdr": 0.66,
+      "oracle": 1.0,
+      "ms_per_decision": 8.666,
+      "peak_mb": 1.1
+    },
+    "K=16": {
+      "bdr": 0.81,
+      "oracle": 1.0,
+      "ms_per_decision": 7.566,
+      "peak_mb": 0.4
+    },
+    "K=32": {
+      "bdr": 0.84,
+      "oracle": 1.0,
+      "ms_per_decision": 8.02,
+      "peak_mb": 0.4
+    },
+    "K=64": {
+      "bdr": 0.89,
+      "oracle": 1.0,
+      "ms_per_decision": 10.816,
+      "peak_mb": 0.4
+    }
+  }
+}

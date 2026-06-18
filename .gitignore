@@ -15,14 +15,17 @@ env/
 # ── Large data (NOT for GitHub — 30 GB ESA telemetry, regenerable plans) ───────
 data/
 
-# ── Trained models — keep only the canonical final/ set (~21 MB) ───────────────
+# ── Trained models — keep only the canonical final/ set (~31 MB) ───────────────
 # Intermediate phase*/step checkpoints (hundreds of MB) are excluded; the
-# canonical models in checkpoints/final/ ARE tracked for reproducibility.
+# canonical models in checkpoints/final/ ARE tracked for reproducibility,
+# including the two Phase-12 real-TLE fine-tunes (emrl_tle_ft*_k16.pt).
 checkpoints/*
 !checkpoints/final/
 
 # ── Training logs / TensorBoard ────────────────────────────────────────────────
 results/**/logs/
+results/**/_logs*/
+*tfevents*
 *.log
 *.out
 
@@ -42,17 +45,20 @@ Thumbs.db
 /figures/
 # Superseded experiment scripts (provenance only).
 archive/
-/results/
+# results/ IS tracked — keep the canonical .json/.csv, exclude run logs and
+# scratch stdout/stderr dumps (*.log and *.out are already ignored globally).
+results/*.txt
 # Earlier scratch docs — current manuscript lives in deliverables/MANUSCRIPT.md.
-paper_draft.md
-context.md
-reviewer_response.md
+/paper_draft.md
+/context.md
+/reviewer_response.md
 colab_train.ipynb
-
+deliverables/*.md
 # Checkpoint backups
 *.bak
 
-# ── Documentation: ONLY the root README.md is tracked ──────────────────────────
-# All other markdown (paper drafts, co-author kit, sub-folder READMEs) is private.
+# ── Documentation: ONLY the root README.md is tracked; all other .md is internal ─
+# deliverables/*.md (manuscript, rebuttal, mentor notes, appendices) are internal —
+# share them directly with co-authors, do NOT push them to the repo.
 *.md
 !/README.md

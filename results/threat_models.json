@@ -1,0 +1,128 @@
+{
+  "A_random_failures": {
+    "EmRL": {
+      "bdr": 0.665,
+      "delay": 3887.7
+    },
+    "CGR": {
+      "bdr": 0.66,
+      "delay": 3652.5
+    },
+    "RUCoP": {
+      "bdr": 0.73,
+      "delay": 4083.3
+    },
+    "S&W": {
+      "bdr": 0.185,
+      "delay": 2264.2
+    },
+    "Oracle": {
+      "bdr": 0.99
+    }
+  },
+  "B_correlated": {
+    "EmRL": {
+      "bdr": 0.64,
+      "delay": 3935.4
+    },
+    "CGR": {
+      "bdr": 0.655,
+      "delay": 3550.7
+    },
+    "RUCoP": {
+      "bdr": 0.68,
+      "delay": 4212.7
+    },
+    "S&W": {
+      "bdr": 0.18,
+      "delay": 2274.4
+    },
+    "Oracle": {
+      "bdr": 0.99
+    }
+  },
+  "C_cascading": {
+    "EmRL": {
+      "bdr": 0.1,
+      "delay": 2302.6
+    },
+    "CGR": {
+      "bdr": 0.105,
+      "delay": 3524.1
+    },
+    "RUCoP": {
+      "bdr": 0.065,
+      "delay": 4038.3
+    },
+    "S&W": {
+      "bdr": 0.085,
+      "delay": 2457.8
+    },
+    "Oracle": {
+      "bdr": 0.99
+    }
+  },
+  "D_space_weather": {
+    "EmRL": {
+      "bdr": 0.345,
+      "delay": 3391.6
+    },
+    "CGR": {
+      "bdr": 0.51,
+      "delay": 3716.7
+    },
+    "RUCoP": {
+      "bdr": 0.365,
+      "delay": 4530.3
+    },
+    "S&W": {
+      "bdr": 0.15,
+      "delay": 2283.4
+    },
+    "Oracle": {
+      "bdr": 0.99
+    }
+  },
+  "E_adversarial": {
+    "EmRL": {
+      "bdr": 0.675,
+      "delay": 3777.4
+    },
+    "CGR": {
+      "bdr": 0.72,
+      "delay": 3632.8
+    },
+    "RUCoP": {
+      "bdr": 0.7,
+      "delay": 4053.7
+    },
+    "S&W": {
+      "bdr": 0.195,
+      "delay": 1861.7
+    },
+    "Oracle": {
+      "bdr": 0.99
+    }
+  },
+  "F_congestion": {
+    "EmRL": {
+      "bdr": 0.1133,
+      "delay": 787.2
+    },
+    "CGR": {
+      "bdr": 0.16,
+      "delay": 875.6
+    },
+    "RUCoP": {
+      "bdr": 0.1567,
+      "delay": 915.9
+    },
+    "S&W": {
+      "bdr": 0.1133,
+      "delay": 757.9
+    },
+    "Oracle": {
+      "bdr": 0.17
+    }
+  }
+}

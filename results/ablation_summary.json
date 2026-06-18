@@ -1,0 +1,30 @@
+{
+  "EmRL-Full": {
+    "best_bdr": 0.3767,
+    "rrna_bdr": 0.56,
+    "rrnb_bdr": 0.1933,
+    "anomaly_bdr": 0.38,
+    "description": "Full EmRL: AACR + BC warmup + pointer-net attention"
+  },
+  "EmRL-NoAACR": {
+    "best_bdr": 0.3767,
+    "rrna_bdr": 0.5733,
+    "rrnb_bdr": 0.18,
+    "anomaly_bdr": 0.4733,
+    "description": "EmRL without AACR: agent observes constant reliability=1.0 (link failures still applied)"
+  },
+  "EmRL-NoBCWarm": {
+    "best_bdr": 0.19,
+    "rrna_bdr": 0.2667,
+    "rrnb_bdr": 0.1133,
+    "anomaly_bdr": 0.1667,
+    "description": "EmRL early policy (best_model_bdr0.0600.pt): pre-convergence proxy for no-BC-warmup"
+  },
+  "ClassicalCGR": {
+    "best_bdr": 0.62,
+    "rrna_bdr": 0.9333,
+    "rrnb_bdr": 0.3067,
+    "anomaly_bdr": 0.8,
+    "description": "Classical CGR (Dijkstra, RFC 6260): deterministic baseline"
+  }
+}

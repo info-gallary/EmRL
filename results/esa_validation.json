@@ -1,0 +1,502 @@
+{
+  "baseline": {
+    "EmRL-AACR": {
+      "bdr": 0.63,
+      "ci_lo": 0.5751,
+      "ci_hi": 0.6849,
+      "drop_reasons": {
+        "delivered": 189,
+        "no_route": 108,
+        "ttl_expired": 3
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.56,
+      "ci_lo": 0.5035,
+      "ci_hi": 0.6165,
+      "drop_reasons": {
+        "delivered": 168,
+        "no_route": 129,
+        "ttl_expired": 3
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.97,
+      "ci_lo": 0.9506,
+      "ci_hi": 0.9894,
+      "drop_reasons": {
+        "delivered": 291,
+        "no_route": 9
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2033,
+      "ci_lo": 0.1575,
+      "ci_hi": 0.2491,
+      "drop_reasons": {
+        "no_route": 239,
+        "delivered": 61
+      }
+    }
+  },
+  "ESA mission1": {
+    "EmRL-AACR": {
+      "bdr": 0.3733,
+      "ci_lo": 0.3183,
+      "ci_hi": 0.4284,
+      "drop_reasons": {
+        "no_route": 167,
+        "ttl_expired": 21,
+        "delivered": 112
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.3867,
+      "ci_lo": 0.3312,
+      "ci_hi": 0.4421,
+      "drop_reasons": {
+        "delivered": 116,
+        "no_route": 168,
+        "ttl_expired": 16
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.73,
+      "ci_lo": 0.6795,
+      "ci_hi": 0.7805,
+      "drop_reasons": {
+        "no_route": 76,
+        "delivered": 219,
+        "ttl_expired": 5
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.17,
+      "ci_lo": 0.1272,
+      "ci_hi": 0.2128,
+      "drop_reasons": {
+        "no_route": 248,
+        "delivered": 51,
+        "ttl_expired": 1
+      }
+    }
+  },
+  "ESA mission2": {
+    "EmRL-AACR": {
+      "bdr": 0.5367,
+      "ci_lo": 0.4799,
+      "ci_hi": 0.5934,
+      "drop_reasons": {
+        "delivered": 161,
+        "no_route": 133,
+        "ttl_expired": 6
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.5233,
+      "ci_lo": 0.4665,
+      "ci_hi": 0.5802,
+      "drop_reasons": {
+        "delivered": 157,
+        "no_route": 142,
+        "ttl_expired": 1
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.87,
+      "ci_lo": 0.8317,
+      "ci_hi": 0.9083,
+      "drop_reasons": {
+        "delivered": 261,
+        "no_route": 39
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2033,
+      "ci_lo": 0.1575,
+      "ci_hi": 0.2491,
+      "drop_reasons": {
+        "no_route": 238,
+        "delivered": 61,
+        "ttl_expired": 1
+      }
+    }
+  },
+  "ESA mission3": {
+    "EmRL-AACR": {
+      "bdr": 0.5233,
+      "ci_lo": 0.4665,
+      "ci_hi": 0.5802,
+      "drop_reasons": {
+        "delivered": 157,
+        "no_route": 135,
+        "ttl_expired": 8
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.4967,
+      "ci_lo": 0.4398,
+      "ci_hi": 0.5536,
+      "drop_reasons": {
+        "delivered": 149,
+        "no_route": 143,
+        "ttl_expired": 8
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.9067,
+      "ci_lo": 0.8736,
+      "ci_hi": 0.9398,
+      "drop_reasons": {
+        "delivered": 272,
+        "no_route": 26,
+        "ttl_expired": 2
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.2,
+      "ci_lo": 0.1545,
+      "ci_hi": 0.2455,
+      "drop_reasons": {
+        "no_route": 240,
+        "delivered": 60
+      }
+    }
+  },
+  "zone_plane0": {
+    "EmRL-AACR": {
+      "bdr": 0.2667,
+      "ci_lo": 0.2163,
+      "ci_hi": 0.317,
+      "drop_reasons": {
+        "no_route": 195,
+        "delivered": 80,
+        "ttl_expired": 25
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.2367,
+      "ci_lo": 0.1883,
+      "ci_hi": 0.285,
+      "drop_reasons": {
+        "no_route": 191,
+        "delivered": 71,
+        "ttl_expired": 38
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.38,
+      "ci_lo": 0.3248,
+      "ci_hi": 0.4352,
+      "drop_reasons": {
+        "no_route": 172,
+        "delivered": 114,
+        "ttl_expired": 14
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1033,
+      "ci_lo": 0.0687,
+      "ci_hi": 0.138,
+      "drop_reasons": {
+        "ttl_expired": 34,
+        "no_route": 235,
+        "delivered": 31
+      }
+    }
+  },
+  "hub_groundstations": {
+    "EmRL-AACR": {
+      "bdr": 0.0733,
+      "ci_lo": 0.0437,
+      "ci_hi": 0.103,
+      "drop_reasons": {
+        "ttl_expired": 25,
+        "no_route": 253,
+        "delivered": 22
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.0667,
+      "ci_lo": 0.0383,
+      "ci_hi": 0.0951,
+      "drop_reasons": {
+        "no_route": 236,
+        "ttl_expired": 44,
+        "delivered": 20
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.1067,
+      "ci_lo": 0.0715,
+      "ci_hi": 0.1418,
+      "drop_reasons": {
+        "no_route": 255,
+        "delivered": 32,
+        "ttl_expired": 13
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.0867,
+      "ci_lo": 0.0546,
+      "ci_hi": 0.1187,
+      "drop_reasons": {
+        "no_route": 251,
+        "ttl_expired": 23,
+        "delivered": 26
+      }
+    }
+  },
+  "hub_relay_sats": {
+    "EmRL-AACR": {
+      "bdr": 0.3333,
+      "ci_lo": 0.2797,
+      "ci_hi": 0.387,
+      "drop_reasons": {
+        "delivered": 100,
+        "no_route": 190,
+        "ttl_expired": 10
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.36,
+      "ci_lo": 0.3054,
+      "ci_hi": 0.4146,
+      "drop_reasons": {
+        "delivered": 108,
+        "no_route": 173,
+        "ttl_expired": 19
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.5567,
+      "ci_lo": 0.5001,
+      "ci_hi": 0.6132,
+      "drop_reasons": {
+        "delivered": 167,
+        "no_route": 118,
+        "ttl_expired": 15
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.12,
+      "ci_lo": 0.083,
+      "ci_hi": 0.157,
+      "drop_reasons": {
+        "no_route": 242,
+        "ttl_expired": 22,
+        "delivered": 36
+      }
+    }
+  },
+  "temporal_cascade_35pct": {
+    "EmRL-AACR": {
+      "bdr": 0.4133,
+      "ci_lo": 0.3573,
+      "ci_hi": 0.4694,
+      "drop_reasons": {
+        "delivered": 124,
+        "no_route": 155,
+        "ttl_expired": 21
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.35,
+      "ci_lo": 0.2957,
+      "ci_hi": 0.4043,
+      "drop_reasons": {
+        "delivered": 105,
+        "no_route": 182,
+        "ttl_expired": 13
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.6467,
+      "ci_lo": 0.5923,
+      "ci_hi": 0.7011,
+      "drop_reasons": {
+        "delivered": 194,
+        "no_route": 102,
+        "ttl_expired": 4
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.18,
+      "ci_lo": 0.1363,
+      "ci_hi": 0.2237,
+      "drop_reasons": {
+        "no_route": 244,
+        "delivered": 54,
+        "ttl_expired": 2
+      }
+    }
+  },
+  "zone_2planes": {
+    "EmRL-AACR": {
+      "bdr": 0.03,
+      "ci_lo": 0.0106,
+      "ci_hi": 0.0494,
+      "drop_reasons": {
+        "no_route": 237,
+        "ttl_expired": 54,
+        "delivered": 9
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.08,
+      "ci_lo": 0.0491,
+      "ci_hi": 0.1109,
+      "drop_reasons": {
+        "no_route": 217,
+        "ttl_expired": 59,
+        "delivered": 24
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.1067,
+      "ci_lo": 0.0715,
+      "ci_hi": 0.1418,
+      "drop_reasons": {
+        "no_route": 249,
+        "ttl_expired": 19,
+        "delivered": 32
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.0467,
+      "ci_lo": 0.0227,
+      "ci_hi": 0.0707,
+      "drop_reasons": {
+        "no_route": 222,
+        "ttl_expired": 64,
+        "delivered": 14
+      }
+    }
+  },
+  "esa_scaled_5x": {
+    "EmRL-AACR": {
+      "bdr": 0.1033,
+      "ci_lo": 0.0687,
+      "ci_hi": 0.138,
+      "drop_reasons": {
+        "no_route": 221,
+        "delivered": 31,
+        "ttl_expired": 48
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.1367,
+      "ci_lo": 0.0976,
+      "ci_hi": 0.1758,
+      "drop_reasons": {
+        "no_route": 198,
+        "delivered": 41,
+        "ttl_expired": 61
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.2367,
+      "ci_lo": 0.1883,
+      "ci_hi": 0.285,
+      "drop_reasons": {
+        "no_route": 214,
+        "delivered": 71,
+        "ttl_expired": 15
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1367,
+      "ci_lo": 0.0976,
+      "ci_hi": 0.1758,
+      "drop_reasons": {
+        "ttl_expired": 24,
+        "no_route": 235,
+        "delivered": 41
+      }
+    }
+  },
+  "combined_zone_cascade": {
+    "EmRL-AACR": {
+      "bdr": 0.1533,
+      "ci_lo": 0.1123,
+      "ci_hi": 0.1943,
+      "drop_reasons": {
+        "no_route": 223,
+        "ttl_expired": 31,
+        "delivered": 46
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.19,
+      "ci_lo": 0.1454,
+      "ci_hi": 0.2346,
+      "drop_reasons": {
+        "no_route": 198,
+        "ttl_expired": 45,
+        "delivered": 57
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.28,
+      "ci_lo": 0.2289,
+      "ci_hi": 0.3311,
+      "drop_reasons": {
+        "no_route": 201,
+        "delivered": 84,
+        "ttl_expired": 15
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.0833,
+      "ci_lo": 0.0519,
+      "ci_hi": 0.1148,
+      "drop_reasons": {
+        "ttl_expired": 48,
+        "no_route": 227,
+        "delivered": 25
+      }
+    }
+  },
+  "isl_degradation_80pct": {
+    "EmRL-AACR": {
+      "bdr": 0.31,
+      "ci_lo": 0.2574,
+      "ci_hi": 0.3626,
+      "drop_reasons": {
+        "delivered": 93,
+        "no_route": 188,
+        "ttl_expired": 19
+      }
+    },
+    "EmRL-NoAACR": {
+      "bdr": 0.3467,
+      "ci_lo": 0.2925,
+      "ci_hi": 0.4008,
+      "drop_reasons": {
+        "delivered": 104,
+        "no_route": 170,
+        "ttl_expired": 26
+      }
+    },
+    "ClassicalCGR": {
+      "bdr": 0.4833,
+      "ci_lo": 0.4265,
+      "ci_hi": 0.5402,
+      "drop_reasons": {
+        "delivered": 145,
+        "no_route": 132,
+        "ttl_expired": 23
+      }
+    },
+    "SprayAndWait": {
+      "bdr": 0.1533,
+      "ci_lo": 0.1123,
+      "ci_hi": 0.1943,
+      "drop_reasons": {
+        "no_route": 251,
+        "delivered": 46,
+        "ttl_expired": 3
+      }
+    }
+  }
+}

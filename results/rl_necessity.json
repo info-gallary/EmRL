@@ -1,0 +1,92 @@
+{
+  "nominal": {
+    "1. Reach-Greedy": {
+      "bdr": 0.7933,
+      "delay": 3639.6,
+      "energy": 3.374
+    },
+    "2. Reach-Heuristic": {
+      "bdr": 0.1567,
+      "delay": 1117.0,
+      "energy": 12.809
+    },
+    "3. EmRL-PPO (noAACR)": {
+      "bdr": 0.7933,
+      "delay": 3754.3,
+      "energy": 3.433
+    },
+    "4. EmRL-Full": {
+      "bdr": 0.8133,
+      "delay": 3787.4,
+      "energy": 3.426
+    },
+    "Oracle": {
+      "bdr": 0.9933
+    }
+  },
+  "nominal_stats": {
+    "1. Reach-Greedy": {
+      "delta": 0.02,
+      "cohens_d": 0.052,
+      "p_value": 0.36658599570460726,
+      "significant_holm": false
+    },
+    "2. Reach-Heuristic": {
+      "delta": 0.6567,
+      "cohens_d": 1.361,
+      "p_value": 3.8214770705056446e-70,
+      "significant_holm": true
+    },
+    "3. EmRL-PPO (noAACR)": {
+      "delta": 0.02,
+      "cohens_d": 0.063,
+      "p_value": 0.2740430460544822,
+      "significant_holm": false
+    }
+  },
+  "jammed": {
+    "1. Reach-Greedy": {
+      "bdr": 0.68,
+      "delay": 3802.2,
+      "energy": 3.515
+    },
+    "2. Reach-Heuristic": {
+      "bdr": 0.15,
+      "delay": 1431.1,
+      "energy": 8.244
+    },
+    "3. EmRL-PPO (noAACR)": {
+      "bdr": 0.6133,
+      "delay": 3856.4,
+      "energy": 3.364
+    },
+    "4. EmRL-Full": {
+      "bdr": 0.62,
+      "delay": 3785.2,
+      "energy": 3.312
+    },
+    "Oracle": {
+      "bdr": 0.9767
+    }
+  },
+  "jammed_stats": {
+    "1. Reach-Greedy": {
+      "delta": -0.06,
+      "cohens_d": -0.129,
+      "p_value": 0.026471268397908445,
+      "significant_holm": false
+    },
+    "2. Reach-Heuristic": {
+      "delta": 0.47,
+      "cohens_d": 0.883,
+      "p_value": 2.114727261693538e-39,
+      "significant_holm": true
+    },
+    "3. EmRL-PPO (noAACR)": {
+      "delta": 0.0067,
+      "cohens_d": 0.018,
+      "p_value": 0.7581897201977938,
+      "significant_holm": false
+    }
+  }
+}

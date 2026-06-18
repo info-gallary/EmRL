@@ -1,0 +1,63 @@
+{
+  "baseline": {
+    "EmRL+AACR": 0.88,
+    "EmRL-NoAACR": 0.7633,
+    "CGR-Online": 0.9533,
+    "SprayAndWait": 0.22,
+    "CGR-Offline": 0.9067
+  },
+  "jam_2_nodes": {
+    "nodes": [
+      16,
+      17
+    ],
+    "n_links": 398,
+    "EmRL+AACR": 0.31,
+    "EmRL-NoAACR": 0.2133,
+    "CGR-Online": 0.23,
+    "SprayAndWait": 0.11,
+    "CGR-Offline": 0.1667
+  },
+  "jam_3_nodes": {
+    "nodes": [
+      16,
+      17,
+      13
+    ],
+    "n_links": 506,
+    "EmRL+AACR": 0.2867,
+    "EmRL-NoAACR": 0.2,
+    "CGR-Online": 0.2133,
+    "SprayAndWait": 0.1,
+    "CGR-Offline": 0.1433
+  },
+  "jam_4_nodes": {
+    "nodes": [
+      16,
+      17,
+      13,
+      12
+    ],
+    "n_links": 610,
+    "EmRL+AACR": 0.2267,
+    "EmRL-NoAACR": 0.18,
+    "CGR-Online": 0.1833,
+    "SprayAndWait": 0.0733,
+    "CGR-Offline": 0.11
+  },
+  "jam_5_nodes": {
+    "nodes": [
+      16,
+      17,
+      13,
+      12,
+      3
+    ],
+    "n_links": 690,
+    "EmRL+AACR": 0.1733,
+    "EmRL-NoAACR": 0.1633,
+    "CGR-Online": 0.1567,
+    "SprayAndWait": 0.0867,
+    "CGR-Offline": 0.0967
+  }
+}
