@@ -1,0 +1,54 @@
+{
+  "method": "shap.KernelExplainer (exact, 2^9 coalitions); output=P(forward via top contact)",
+  "shap_version": "0.52.0",
+  "n_decisions": 80,
+  "base_value": 0.45991,
+  "mean_prediction": 0.60609,
+  "ranking": [
+    {
+      "feature": "delivery_potential",
+      "mean_abs_shap": 0.36638,
+      "mean_shap": 9e-05
+    },
+    {
+      "feature": "t_start",
+      "mean_abs_shap": 0.29072,
+      "mean_shap": 0.00928
+    },
+    {
+      "feature": "active",
+      "mean_abs_shap": 0.15149,
+      "mean_shap": 0.04529
+    },
+    {
+      "feature": "receiver",
+      "mean_abs_shap": 0.15082,
+      "mean_shap": 0.09547
+    },
+    {
+      "feature": "dest_dist",
+      "mean_abs_shap": 0.05949,
+      "mean_shap": 0.01676
+    },
+    {
+      "feature": "reliability/AACR",
+      "mean_abs_shap": 0.03809,
+      "mean_shap": -0.01699
+    },
+    {
+      "feature": "duration",
+      "mean_abs_shap": 0.02687,
+      "mean_shap": 0.0015
+    },
+    {
+      "feature": "energy",
+      "mean_abs_shap": 0.01918,
+      "mean_shap": -0.00043
+    },
+    {
+      "feature": "data_rate",
+      "mean_abs_shap": 0.01507,
+      "mean_shap": -0.00479
+    }
+  ]
+}
